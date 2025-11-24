@@ -1,0 +1,1001 @@
+UserID,Name,TrialPeriod,OnboardingType,Conversion
+1,David Williams,7 days,Interactive Guide,0
+2,David Davis,14 days,Video,1
+3,Anna Garcia,7 days,Video,1
+4,Anna Rodriguez,7 days,Video,1
+5,Sarah Rodriguez,7 days,Video,1
+6,Emily Davis,14 days,Video,1
+7,Emily Johnson,7 days,Interactive Guide,1
+8,Anna Rodriguez,7 days,Video,1
+9,Michael Brown,7 days,Interactive Guide,0
+10,Jane Smith,14 days,Interactive Guide,0
+11,David Garcia,7 days,Video,0
+12,Jane Davis,7 days,Video,1
+13,Emily Davis,7 days,Interactive Guide,1
+14,David Jones,7 days,Video,0
+15,Anna Martinez,14 days,Video,1
+16,Laura Rodriguez,7 days,Interactive Guide,1
+17,Michael Martinez,14 days,Interactive Guide,0
+18,Michael Johnson,14 days,Video,1
+19,Michael Williams,14 days,Interactive Guide,1
+20,David Martinez,7 days,Video,0
+21,Michael Davis,14 days,Video,1
+22,John Williams,7 days,Video,0
+23,Alex Rodriguez,14 days,Interactive Guide,1
+24,Michael Rodriguez,14 days,Interactive Guide,1
+25,Chris Smith,14 days,Interactive Guide,1
+26,Jane Jones,14 days,Interactive Guide,0
+27,Emily Martinez,14 days,Interactive Guide,1
+28,Chris Miller,14 days,Video,1
+29,Sarah Miller,14 days,Video,0
+30,John Smith,14 days,Video,1
+31,Laura Johnson,7 days,Video,0
+32,Anna Rodriguez,7 days,Interactive Guide,1
+33,David Garcia,14 days,Video,0
+34,John Smith,14 days,Interactive Guide,0
+35,Jane Garcia,14 days,Video,0
+36,Sarah Johnson,7 days,Interactive Guide,1
+37,John Martinez,14 days,Interactive Guide,0
+38,Michael Jones,7 days,Video,1
+39,Jane Garcia,7 days,Video,0
+40,Chris Johnson,7 days,Video,0
+41,Anna Johnson,7 days,Video,1
+42,Alex Miller,7 days,Interactive Guide,1
+43,Sarah Davis,14 days,Video,0
+44,Laura Garcia,14 days,Video,1
+45,Anna Williams,14 days,Interactive Guide,1
+46,Alex Smith,14 days,Video,1
+47,David Jones,14 days,Video,0
+48,Emily Martinez,7 days,Video,0
+49,Emily Brown,14 days,Video,1
+50,Sarah Davis,14 days,Video,0
+51,Laura Jones,7 days,Interactive Guide,1
+52,Sarah Brown,14 days,Video,1
+53,Chris Davis,7 days,Video,1
+54,Anna Martinez,14 days,Video,1
+55,John Johnson,7 days,Video,1
+56,Chris Davis,14 days,Video,0
+57,Alex Davis,14 days,Interactive Guide,1
+58,John Martinez,7 days,Video,0
+59,Emily Williams,7 days,Interactive Guide,0
+60,Sarah Miller,7 days,Interactive Guide,1
+61,Emily Miller,7 days,Video,1
+62,Chris Johnson,7 days,Video,1
+63,Alex Jones,7 days,Video,1
+64,Alex Davis,7 days,Video,0
+65,Anna Davis,7 days,Interactive Guide,0
+66,Laura Rodriguez,14 days,Video,1
+67,Emily Jones,14 days,Video,0
+68,Michael Davis,7 days,Video,0
+69,David Rodriguez,14 days,Video,0
+70,Laura Johnson,14 days,Video,0
+71,Anna Brown,14 days,Video,0
+72,Sarah Johnson,14 days,Interactive Guide,0
+73,David Williams,7 days,Interactive Guide,0
+74,Alex Johnson,14 days,Video,0
+75,Laura Garcia,7 days,Video,1
+76,John Smith,14 days,Video,0
+77,David Davis,14 days,Interactive Guide,0
+78,Michael Jones,14 days,Video,1
+79,Emily Garcia,7 days,Interactive Guide,0
+80,Sarah Williams,14 days,Video,1
+81,Chris Miller,7 days,Video,1
+82,John Miller,14 days,Video,0
+83,Michael Jones,7 days,Video,0
+84,Jane Brown,14 days,Interactive Guide,1
+85,Sarah Martinez,7 days,Interactive Guide,1
+86,David Jones,7 days,Video,0
+87,Chris Williams,14 days,Video,1
+88,John Brown,7 days,Interactive Guide,0
+89,Chris Brown,14 days,Interactive Guide,1
+90,Jane Martinez,14 days,Interactive Guide,0
+91,Michael Williams,14 days,Interactive Guide,1
+92,Chris Brown,14 days,Video,1
+93,Sarah Johnson,14 days,Interactive Guide,1
+94,Sarah Williams,14 days,Video,1
+95,Chris Johnson,14 days,Interactive Guide,0
+96,Chris Jones,14 days,Interactive Guide,0
+97,Laura Johnson,14 days,Interactive Guide,0
+98,Sarah Williams,14 days,Interactive Guide,0
+99,Anna Jones,14 days,Interactive Guide,1
+100,Laura Martinez,7 days,Video,0
+101,John Jones,7 days,Video,0
+102,Alex Brown,14 days,Interactive Guide,1
+103,Jane Rodriguez,14 days,Interactive Guide,1
+104,Alex Johnson,14 days,Video,1
+105,Anna Rodriguez,14 days,Interactive Guide,1
+106,David Garcia,14 days,Interactive Guide,0
+107,John Jones,14 days,Video,0
+108,Alex Smith,14 days,Interactive Guide,1
+109,Emily Johnson,14 days,Interactive Guide,1
+110,Jane Williams,7 days,Video,0
+111,Laura Davis,14 days,Video,1
+112,David Garcia,7 days,Video,0
+113,Chris Brown,14 days,Interactive Guide,0
+114,John Davis,14 days,Video,1
+115,David Miller,7 days,Video,1
+116,Alex Brown,14 days,Video,1
+117,Anna Rodriguez,7 days,Video,0
+118,Sarah Jones,14 days,Video,1
+119,Alex Rodriguez,14 days,Video,0
+120,Michael Jones,7 days,Interactive Guide,0
+121,Emily Brown,14 days,Interactive Guide,1
+122,John Miller,7 days,Video,1
+123,Chris Williams,14 days,Video,1
+124,Jane Williams,7 days,Video,1
+125,John Garcia,7 days,Interactive Guide,1
+126,David Johnson,14 days,Interactive Guide,1
+127,Laura Garcia,14 days,Interactive Guide,0
+128,Emily Jones,7 days,Interactive Guide,0
+129,Laura Williams,14 days,Interactive Guide,0
+130,Alex Brown,14 days,Interactive Guide,0
+131,John Rodriguez,14 days,Interactive Guide,1
+132,Laura Davis,7 days,Interactive Guide,0
+133,Anna Garcia,7 days,Interactive Guide,0
+134,David Garcia,7 days,Video,0
+135,Chris Williams,7 days,Video,1
+136,Alex Williams,7 days,Video,0
+137,Anna Williams,7 days,Video,1
+138,Chris Brown,7 days,Interactive Guide,0
+139,David Rodriguez,7 days,Interactive Guide,0
+140,David Rodriguez,7 days,Video,1
+141,Alex Brown,14 days,Interactive Guide,1
+142,Laura Garcia,7 days,Video,0
+143,Michael Brown,14 days,Interactive Guide,1
+144,Laura Smith,14 days,Video,1
+145,Chris Smith,14 days,Interactive Guide,0
+146,Laura Brown,7 days,Interactive Guide,1
+147,Chris Jones,7 days,Video,1
+148,Alex Rodriguez,7 days,Interactive Guide,1
+149,Chris Brown,7 days,Video,1
+150,Emily Davis,14 days,Video,1
+151,Jane Rodriguez,7 days,Video,1
+152,Sarah Rodriguez,7 days,Video,1
+153,Laura Miller,7 days,Interactive Guide,1
+154,John Williams,7 days,Interactive Guide,1
+155,Jane Jones,7 days,Interactive Guide,1
+156,Michael Jones,14 days,Video,1
+157,Emily Jones,7 days,Interactive Guide,0
+158,Alex Smith,14 days,Video,1
+159,Michael Rodriguez,7 days,Interactive Guide,1
+160,Chris Brown,14 days,Interactive Guide,0
+161,Alex Smith,7 days,Interactive Guide,1
+162,Jane Davis,7 days,Video,0
+163,John Davis,14 days,Interactive Guide,0
+164,David Davis,14 days,Interactive Guide,1
+165,Sarah Rodriguez,14 days,Video,0
+166,Alex Martinez,7 days,Interactive Guide,1
+167,Emily Garcia,14 days,Video,1
+168,Laura Jones,7 days,Interactive Guide,1
+169,Alex Garcia,7 days,Video,0
+170,Emily Rodriguez,14 days,Video,0
+171,Alex Brown,14 days,Interactive Guide,1
+172,David Miller,7 days,Video,1
+173,Emily Garcia,7 days,Video,1
+174,Alex Garcia,14 days,Video,0
+175,Jane Davis,14 days,Video,1
+176,Jane Miller,14 days,Video,1
+177,Chris Smith,7 days,Video,1
+178,Laura Miller,7 days,Interactive Guide,0
+179,Sarah Garcia,7 days,Video,1
+180,Sarah Rodriguez,7 days,Video,1
+181,Jane Smith,7 days,Interactive Guide,1
+182,Sarah Martinez,7 days,Interactive Guide,0
+183,Laura Williams,14 days,Interactive Guide,1
+184,Anna Smith,7 days,Interactive Guide,1
+185,Chris Smith,7 days,Interactive Guide,0
+186,Alex Davis,7 days,Interactive Guide,1
+187,Alex Brown,14 days,Interactive Guide,1
+188,Laura Smith,7 days,Video,0
+189,Sarah Smith,7 days,Video,0
+190,John Davis,14 days,Interactive Guide,1
+191,Emily Smith,7 days,Video,0
+192,Anna Miller,7 days,Video,1
+193,Michael Jones,7 days,Video,0
+194,John Martinez,7 days,Interactive Guide,1
+195,Sarah Rodriguez,7 days,Interactive Guide,0
+196,Chris Davis,14 days,Video,1
+197,Michael Smith,14 days,Interactive Guide,1
+198,Chris Smith,14 days,Video,1
+199,Laura Jones,7 days,Video,1
+200,Alex Miller,7 days,Video,0
+201,David Rodriguez,7 days,Video,1
+202,David Williams,14 days,Interactive Guide,0
+203,John Davis,7 days,Interactive Guide,0
+204,Alex Davis,7 days,Interactive Guide,0
+205,Laura Jones,14 days,Video,0
+206,John Martinez,7 days,Interactive Guide,1
+207,David Martinez,14 days,Video,1
+208,Michael Davis,14 days,Interactive Guide,0
+209,Chris Miller,14 days,Video,0
+210,David Smith,7 days,Video,1
+211,Emily Johnson,7 days,Video,0
+212,Jane Johnson,7 days,Interactive Guide,0
+213,Emily Smith,7 days,Interactive Guide,0
+214,Emily Johnson,7 days,Interactive Guide,1
+215,Michael Williams,7 days,Interactive Guide,1
+216,Laura Brown,7 days,Video,0
+217,John Smith,14 days,Interactive Guide,0
+218,Anna Williams,7 days,Interactive Guide,1
+219,Chris Miller,14 days,Video,1
+220,Jane Rodriguez,7 days,Video,0
+221,Anna Johnson,7 days,Video,1
+222,Alex Martinez,7 days,Interactive Guide,0
+223,Jane Williams,14 days,Video,0
+224,Sarah Rodriguez,14 days,Video,1
+225,Chris Miller,14 days,Video,0
+226,Alex Brown,14 days,Interactive Guide,1
+227,Sarah Jones,7 days,Video,0
+228,Jane Garcia,14 days,Interactive Guide,0
+229,Alex Davis,7 days,Interactive Guide,1
+230,Jane Smith,7 days,Video,0
+231,Chris Williams,14 days,Video,1
+232,John Miller,14 days,Interactive Guide,0
+233,Anna Jones,14 days,Video,0
+234,Michael Smith,14 days,Video,0
+235,Chris Miller,14 days,Interactive Guide,1
+236,Laura Rodriguez,14 days,Interactive Guide,0
+237,Sarah Jones,14 days,Video,1
+238,Sarah Johnson,14 days,Interactive Guide,0
+239,Emily Williams,7 days,Video,1
+240,David Rodriguez,14 days,Video,0
+241,Michael Garcia,14 days,Video,1
+242,Anna Johnson,7 days,Interactive Guide,1
+243,Alex Williams,14 days,Video,1
+244,Chris Miller,7 days,Video,1
+245,Laura Martinez,7 days,Video,1
+246,Chris Garcia,14 days,Interactive Guide,1
+247,Emily Smith,7 days,Interactive Guide,0
+248,Laura Miller,7 days,Interactive Guide,0
+249,Jane Davis,7 days,Interactive Guide,1
+250,Michael Miller,7 days,Interactive Guide,1
+251,Emily Jones,14 days,Video,1
+252,Laura Smith,7 days,Interactive Guide,0
+253,John Brown,14 days,Interactive Guide,0
+254,Alex Martinez,7 days,Interactive Guide,0
+255,Jane Williams,7 days,Video,1
+256,John Smith,7 days,Interactive Guide,0
+257,Sarah Jones,7 days,Interactive Guide,0
+258,Laura Johnson,14 days,Video,0
+259,Emily Davis,14 days,Interactive Guide,0
+260,Sarah Smith,7 days,Video,1
+261,Emily Smith,7 days,Video,0
+262,Jane Jones,14 days,Video,1
+263,Laura Davis,7 days,Video,0
+264,Alex Brown,7 days,Video,0
+265,Anna Garcia,7 days,Interactive Guide,0
+266,Anna Williams,14 days,Video,0
+267,Jane Garcia,14 days,Video,0
+268,Michael Martinez,14 days,Interactive Guide,0
+269,Michael Martinez,7 days,Video,1
+270,Michael Martinez,7 days,Interactive Guide,0
+271,Michael Williams,14 days,Interactive Guide,1
+272,David Garcia,14 days,Interactive Guide,1
+273,Emily Johnson,14 days,Video,1
+274,Chris Smith,14 days,Video,0
+275,Emily Smith,7 days,Video,0
+276,Sarah Brown,14 days,Interactive Guide,0
+277,Michael Jones,7 days,Video,0
+278,Chris Smith,14 days,Video,1
+279,Jane Garcia,7 days,Video,0
+280,Michael Miller,14 days,Interactive Guide,0
+281,Alex Williams,14 days,Interactive Guide,1
+282,Anna Johnson,14 days,Video,1
+283,Alex Martinez,14 days,Video,1
+284,John Jones,7 days,Video,0
+285,Michael Miller,14 days,Video,0
+286,Emily Williams,7 days,Interactive Guide,1
+287,John Davis,7 days,Interactive Guide,0
+288,Alex Johnson,7 days,Interactive Guide,0
+289,Emily Williams,7 days,Interactive Guide,0
+290,John Williams,14 days,Video,0
+291,Jane Davis,7 days,Video,0
+292,Sarah Rodriguez,7 days,Video,0
+293,Laura Martinez,7 days,Interactive Guide,1
+294,Alex Jones,14 days,Video,1
+295,David Jones,14 days,Interactive Guide,1
+296,Laura Jones,14 days,Interactive Guide,0
+297,John Jones,14 days,Video,0
+298,Emily Garcia,7 days,Video,0
+299,Alex Jones,7 days,Video,1
+300,Jane Garcia,14 days,Interactive Guide,1
+301,Sarah Jones,7 days,Video,0
+302,Sarah Miller,7 days,Interactive Guide,1
+303,Michael Smith,7 days,Video,0
+304,Laura Brown,14 days,Interactive Guide,1
+305,Chris Martinez,14 days,Interactive Guide,1
+306,Sarah Smith,7 days,Video,1
+307,Alex Williams,14 days,Interactive Guide,1
+308,Anna Brown,14 days,Interactive Guide,1
+309,Sarah Miller,14 days,Video,0
+310,Anna Brown,14 days,Interactive Guide,1
+311,Sarah Smith,14 days,Video,0
+312,Laura Miller,7 days,Interactive Guide,1
+313,Chris Williams,14 days,Video,1
+314,Jane Smith,7 days,Video,1
+315,Alex Jones,7 days,Interactive Guide,0
+316,Jane Williams,14 days,Interactive Guide,1
+317,Emily Miller,7 days,Interactive Guide,1
+318,Alex Rodriguez,7 days,Interactive Guide,1
+319,Laura Brown,7 days,Interactive Guide,0
+320,John Smith,14 days,Video,0
+321,John Smith,14 days,Interactive Guide,0
+322,Laura Williams,7 days,Video,0
+323,Sarah Williams,14 days,Video,1
+324,Michael Miller,14 days,Interactive Guide,0
+325,Jane Garcia,14 days,Video,1
+326,Sarah Williams,14 days,Video,0
+327,Sarah Martinez,7 days,Video,0
+328,Anna Jones,7 days,Video,1
+329,Jane Rodriguez,14 days,Interactive Guide,1
+330,Laura Williams,14 days,Video,0
+331,Laura Rodriguez,7 days,Interactive Guide,1
+332,Alex Williams,7 days,Interactive Guide,1
+333,Jane Davis,14 days,Video,0
+334,Anna Smith,7 days,Interactive Guide,1
+335,Laura Miller,14 days,Interactive Guide,1
+336,David Williams,14 days,Interactive Guide,1
+337,John Brown,7 days,Video,0
+338,Chris Jones,7 days,Interactive Guide,1
+339,John Jones,14 days,Interactive Guide,0
+340,Laura Davis,14 days,Interactive Guide,0
+341,Michael Rodriguez,7 days,Video,0
+342,John Brown,14 days,Interactive Guide,0
+343,Alex Johnson,7 days,Video,1
+344,Laura Miller,14 days,Video,1
+345,Chris Johnson,7 days,Video,1
+346,Emily Garcia,7 days,Video,0
+347,Alex Davis,7 days,Video,0
+348,Alex Johnson,14 days,Video,0
+349,Alex Garcia,14 days,Interactive Guide,1
+350,Jane Davis,7 days,Video,0
+351,John Miller,14 days,Interactive Guide,1
+352,Jane Martinez,7 days,Interactive Guide,1
+353,Sarah Johnson,7 days,Video,0
+354,Jane Martinez,14 days,Interactive Guide,1
+355,Laura Johnson,14 days,Interactive Guide,0
+356,David Williams,7 days,Interactive Guide,1
+357,Laura Miller,14 days,Interactive Guide,1
+358,Laura Miller,14 days,Video,0
+359,Sarah Miller,7 days,Interactive Guide,0
+360,Michael Miller,7 days,Video,1
+361,John Smith,14 days,Interactive Guide,1
+362,Chris Jones,7 days,Interactive Guide,0
+363,Michael Williams,7 days,Video,1
+364,Michael Williams,14 days,Interactive Guide,1
+365,Chris Rodriguez,7 days,Interactive Guide,1
+366,Sarah Smith,7 days,Interactive Guide,0
+367,David Miller,14 days,Video,1
+368,Anna Martinez,14 days,Interactive Guide,1
+369,Emily Davis,7 days,Video,0
+370,Sarah Brown,7 days,Interactive Guide,0
+371,Emily Johnson,14 days,Video,1
+372,Jane Brown,14 days,Video,0
+373,Michael Davis,14 days,Interactive Guide,1
+374,Sarah Brown,14 days,Interactive Guide,0
+375,David Davis,7 days,Video,0
+376,Jane Miller,14 days,Video,1
+377,Jane Johnson,14 days,Interactive Guide,0
+378,Laura Johnson,7 days,Video,1
+379,Chris Smith,14 days,Interactive Guide,0
+380,Chris Smith,7 days,Interactive Guide,1
+381,Anna Martinez,14 days,Interactive Guide,0
+382,Jane Garcia,14 days,Interactive Guide,0
+383,Sarah Smith,14 days,Video,1
+384,David Davis,7 days,Interactive Guide,0
+385,Jane Davis,7 days,Video,1
+386,Chris Garcia,14 days,Interactive Guide,0
+387,Michael Rodriguez,7 days,Video,1
+388,Chris Smith,7 days,Interactive Guide,0
+389,Alex Rodriguez,7 days,Video,1
+390,Jane Brown,7 days,Video,0
+391,Emily Johnson,7 days,Interactive Guide,0
+392,Alex Williams,7 days,Interactive Guide,0
+393,John Garcia,14 days,Interactive Guide,0
+394,Laura Williams,14 days,Interactive Guide,1
+395,Michael Smith,7 days,Video,0
+396,Anna Miller,14 days,Interactive Guide,1
+397,Anna Smith,14 days,Video,0
+398,Chris Davis,14 days,Video,0
+399,David Martinez,14 days,Interactive Guide,1
+400,David Jones,7 days,Video,1
+401,Michael Jones,14 days,Video,0
+402,John Davis,14 days,Video,0
+403,John Brown,7 days,Video,0
+404,Chris Rodriguez,7 days,Interactive Guide,1
+405,Michael Brown,14 days,Interactive Guide,1
+406,Alex Williams,14 days,Interactive Guide,0
+407,Michael Martinez,14 days,Interactive Guide,1
+408,John Jones,14 days,Video,1
+409,Sarah Miller,14 days,Video,1
+410,Chris Williams,14 days,Interactive Guide,1
+411,Jane Williams,7 days,Interactive Guide,0
+412,Chris Miller,14 days,Interactive Guide,0
+413,Chris Johnson,14 days,Video,0
+414,Michael Brown,7 days,Interactive Guide,0
+415,Jane Rodriguez,7 days,Interactive Guide,1
+416,Chris Garcia,7 days,Interactive Guide,1
+417,Sarah Davis,7 days,Video,0
+418,Sarah Smith,14 days,Video,0
+419,Emily Miller,14 days,Video,0
+420,Jane Rodriguez,14 days,Video,1
+421,Laura Davis,14 days,Video,0
+422,David Brown,14 days,Video,1
+423,Jane Williams,14 days,Video,0
+424,Sarah Jones,7 days,Video,0
+425,Laura Garcia,14 days,Interactive Guide,1
+426,Sarah Smith,7 days,Interactive Guide,1
+427,Emily Jones,7 days,Video,0
+428,Alex Rodriguez,14 days,Video,1
+429,John Garcia,7 days,Interactive Guide,1
+430,Sarah Martinez,14 days,Video,1
+431,Michael Jones,7 days,Video,0
+432,Anna Jones,14 days,Video,1
+433,Sarah Davis,7 days,Interactive Guide,0
+434,Jane Garcia,14 days,Interactive Guide,1
+435,John Brown,14 days,Interactive Guide,0
+436,Anna Williams,14 days,Interactive Guide,0
+437,Chris Williams,14 days,Interactive Guide,0
+438,Sarah Smith,14 days,Video,1
+439,Sarah Brown,7 days,Interactive Guide,0
+440,Laura Rodriguez,7 days,Video,1
+441,Emily Martinez,7 days,Video,1
+442,Anna Garcia,14 days,Interactive Guide,0
+443,John Brown,7 days,Interactive Guide,1
+444,David Smith,14 days,Video,0
+445,Laura Martinez,14 days,Video,1
+446,Sarah Jones,7 days,Video,0
+447,Anna Rodriguez,7 days,Interactive Guide,1
+448,Jane Jones,14 days,Interactive Guide,1
+449,Sarah Miller,7 days,Interactive Guide,1
+450,Michael Rodriguez,14 days,Interactive Guide,1
+451,John Miller,14 days,Interactive Guide,0
+452,Anna Miller,14 days,Video,1
+453,Emily Rodriguez,14 days,Interactive Guide,1
+454,Michael Brown,14 days,Video,1
+455,David Brown,7 days,Video,0
+456,Alex Rodriguez,7 days,Video,1
+457,Laura Smith,14 days,Interactive Guide,1
+458,David Rodriguez,14 days,Interactive Guide,1
+459,Laura Davis,7 days,Interactive Guide,0
+460,Sarah Brown,7 days,Video,1
+461,Laura Williams,14 days,Video,0
+462,Chris Johnson,7 days,Video,1
+463,Jane Miller,14 days,Video,0
+464,Anna Brown,7 days,Video,1
+465,Anna Davis,14 days,Video,1
+466,Chris Miller,7 days,Interactive Guide,0
+467,Michael Davis,14 days,Interactive Guide,1
+468,Emily Johnson,7 days,Interactive Guide,0
+469,Sarah Rodriguez,7 days,Interactive Guide,1
+470,John Martinez,14 days,Video,1
+471,David Martinez,7 days,Video,1
+472,Chris Martinez,14 days,Interactive Guide,1
+473,Chris Martinez,7 days,Video,1
+474,Alex Jones,14 days,Interactive Guide,0
+475,Laura Davis,7 days,Interactive Guide,0
+476,Emily Smith,14 days,Interactive Guide,1
+477,John Brown,7 days,Video,1
+478,Sarah Davis,14 days,Interactive Guide,1
+479,Sarah Rodriguez,7 days,Interactive Guide,1
+480,Chris Johnson,14 days,Interactive Guide,0
+481,Anna Smith,14 days,Video,1
+482,Jane Jones,14 days,Video,0
+483,Emily Brown,7 days,Interactive Guide,1
+484,Chris Davis,14 days,Video,0
+485,Sarah Smith,7 days,Video,0
+486,Jane Garcia,14 days,Video,0
+487,Jane Martinez,7 days,Video,0
+488,Michael Jones,14 days,Video,1
+489,Sarah Garcia,7 days,Video,0
+490,Sarah Johnson,7 days,Video,0
+491,Anna Williams,14 days,Video,0
+492,Sarah Davis,7 days,Video,0
+493,John Smith,7 days,Video,0
+494,Jane Garcia,14 days,Interactive Guide,0
+495,Chris Brown,7 days,Interactive Guide,1
+496,Alex Davis,7 days,Video,1
+497,Anna Rodriguez,7 days,Interactive Guide,1
+498,Michael Rodriguez,14 days,Interactive Guide,0
+499,Jane Williams,7 days,Video,0
+500,David Miller,14 days,Video,1
+501,Sarah Garcia,7 days,Video,1
+502,Jane Martinez,7 days,Interactive Guide,0
+503,Sarah Brown,7 days,Interactive Guide,0
+504,Alex Johnson,14 days,Video,0
+505,John Jones,7 days,Video,0
+506,Jane Johnson,7 days,Video,0
+507,David Davis,14 days,Interactive Guide,1
+508,Anna Davis,7 days,Interactive Guide,1
+509,Emily Smith,14 days,Interactive Guide,1
+510,David Smith,14 days,Interactive Guide,1
+511,Emily Davis,7 days,Video,1
+512,Jane Garcia,14 days,Video,1
+513,Sarah Rodriguez,7 days,Video,1
+514,Michael Martinez,14 days,Video,0
+515,Emily Jones,14 days,Interactive Guide,0
+516,Anna Jones,7 days,Interactive Guide,0
+517,Laura Martinez,14 days,Video,1
+518,Laura Johnson,14 days,Video,1
+519,David Davis,14 days,Interactive Guide,0
+520,Sarah Jones,14 days,Video,1
+521,Chris Williams,14 days,Interactive Guide,0
+522,Anna Brown,7 days,Video,1
+523,Chris Garcia,14 days,Video,0
+524,Laura Miller,7 days,Video,0
+525,Jane Williams,14 days,Video,0
+526,John Rodriguez,7 days,Video,0
+527,David Smith,7 days,Video,0
+528,Alex Brown,14 days,Video,0
+529,Emily Jones,14 days,Interactive Guide,1
+530,Alex Williams,14 days,Interactive Guide,1
+531,John Miller,7 days,Interactive Guide,0
+532,Anna Smith,14 days,Interactive Guide,1
+533,Jane Brown,7 days,Interactive Guide,1
+534,Emily Jones,7 days,Video,0
+535,Jane Brown,7 days,Video,0
+536,John Johnson,14 days,Interactive Guide,0
+537,John Martinez,14 days,Video,0
+538,Anna Brown,7 days,Interactive Guide,1
+539,Emily Miller,7 days,Interactive Guide,0
+540,Anna Rodriguez,14 days,Video,1
+541,Chris Jones,7 days,Video,1
+542,Anna Smith,14 days,Video,0
+543,John Garcia,7 days,Interactive Guide,1
+544,Jane Davis,14 days,Video,0
+545,Chris Brown,7 days,Interactive Guide,1
+546,Michael Davis,14 days,Interactive Guide,0
+547,Alex Jones,7 days,Interactive Guide,1
+548,Alex Martinez,14 days,Video,1
+549,Alex Williams,14 days,Video,0
+550,David Miller,7 days,Interactive Guide,1
+551,David Martinez,7 days,Video,1
+552,Laura Jones,14 days,Video,1
+553,Michael Brown,7 days,Video,1
+554,David Martinez,14 days,Interactive Guide,1
+555,Emily Johnson,7 days,Interactive Guide,0
+556,Emily Davis,14 days,Video,0
+557,Chris Williams,14 days,Interactive Guide,1
+558,David Rodriguez,14 days,Video,0
+559,Emily Martinez,14 days,Video,1
+560,Alex Jones,14 days,Video,1
+561,John Williams,14 days,Video,0
+562,Laura Davis,7 days,Interactive Guide,0
+563,Emily Johnson,7 days,Interactive Guide,1
+564,Laura Davis,7 days,Interactive Guide,0
+565,Anna Brown,14 days,Video,1
+566,Alex Johnson,14 days,Video,0
+567,Chris Smith,14 days,Video,1
+568,David Jones,14 days,Interactive Guide,0
+569,Laura Brown,7 days,Video,1
+570,David Jones,7 days,Interactive Guide,0
+571,Michael Rodriguez,14 days,Interactive Guide,1
+572,Chris Rodriguez,7 days,Interactive Guide,0
+573,Sarah Garcia,7 days,Interactive Guide,1
+574,Michael Rodriguez,14 days,Interactive Guide,1
+575,Anna Davis,7 days,Interactive Guide,0
+576,David Miller,14 days,Video,0
+577,Sarah Jones,7 days,Video,0
+578,Emily Williams,14 days,Interactive Guide,1
+579,Alex Garcia,14 days,Interactive Guide,1
+580,Emily Garcia,14 days,Video,1
+581,Alex Brown,14 days,Interactive Guide,0
+582,Chris Jones,7 days,Interactive Guide,0
+583,David Martinez,14 days,Video,1
+584,Jane Jones,14 days,Interactive Guide,0
+585,Chris Williams,14 days,Interactive Guide,1
+586,Chris Garcia,7 days,Interactive Guide,0
+587,Emily Miller,14 days,Video,1
+588,Laura Garcia,7 days,Video,0
+589,Michael Garcia,14 days,Video,0
+590,Michael Davis,7 days,Interactive Guide,1
+591,John Miller,7 days,Interactive Guide,1
+592,Anna Martinez,14 days,Video,1
+593,Jane Rodriguez,7 days,Interactive Guide,0
+594,John Martinez,14 days,Interactive Guide,0
+595,Sarah Rodriguez,14 days,Interactive Guide,1
+596,John Brown,14 days,Interactive Guide,1
+597,Emily Rodriguez,7 days,Interactive Guide,0
+598,Michael Jones,7 days,Video,0
+599,Sarah Smith,14 days,Interactive Guide,0
+600,John Rodriguez,14 days,Video,1
+601,Alex Brown,7 days,Interactive Guide,0
+602,John Rodriguez,14 days,Video,0
+603,Laura Johnson,14 days,Interactive Guide,0
+604,Laura Miller,14 days,Video,0
+605,Sarah Smith,7 days,Interactive Guide,0
+606,David Martinez,7 days,Video,1
+607,David Rodriguez,7 days,Interactive Guide,0
+608,John Johnson,14 days,Video,1
+609,Chris Rodriguez,14 days,Interactive Guide,0
+610,Sarah Garcia,14 days,Video,1
+611,Emily Brown,7 days,Video,1
+612,Michael Williams,14 days,Interactive Guide,1
+613,John Smith,14 days,Interactive Guide,1
+614,David Smith,14 days,Video,0
+615,John Williams,14 days,Interactive Guide,0
+616,Anna Brown,7 days,Video,1
+617,Emily Johnson,7 days,Video,1
+618,John Williams,14 days,Video,1
+619,Emily Williams,7 days,Interactive Guide,1
+620,Laura Martinez,7 days,Video,1
+621,John Johnson,14 days,Video,0
+622,David Brown,14 days,Interactive Guide,0
+623,Laura Williams,7 days,Interactive Guide,1
+624,Sarah Rodriguez,14 days,Interactive Guide,1
+625,John Smith,7 days,Interactive Guide,0
+626,Laura Williams,14 days,Video,1
+627,Michael Smith,7 days,Video,0
+628,Michael Garcia,14 days,Video,1
+629,Laura Williams,7 days,Video,0
+630,Alex Martinez,7 days,Interactive Guide,0
+631,Chris Brown,7 days,Video,1
+632,Emily Miller,14 days,Video,0
+633,Jane Davis,7 days,Interactive Guide,1
+634,Sarah Williams,7 days,Video,1
+635,Chris Jones,14 days,Video,1
+636,Laura Miller,14 days,Video,0
+637,Laura Miller,7 days,Video,0
+638,Alex Johnson,7 days,Video,0
+639,David Williams,14 days,Video,1
+640,Alex Johnson,14 days,Interactive Guide,1
+641,Emily Davis,14 days,Interactive Guide,1
+642,John Smith,14 days,Video,1
+643,Michael Jones,14 days,Video,1
+644,John Garcia,7 days,Interactive Guide,1
+645,John Jones,14 days,Video,0
+646,Chris Jones,7 days,Video,1
+647,Sarah Davis,7 days,Video,0
+648,John Johnson,7 days,Interactive Guide,1
+649,Chris Williams,14 days,Video,1
+650,Sarah Jones,7 days,Interactive Guide,1
+651,Jane Miller,7 days,Video,0
+652,Emily Smith,14 days,Interactive Guide,0
+653,Emily Garcia,7 days,Interactive Guide,0
+654,David Miller,7 days,Video,0
+655,David Williams,14 days,Interactive Guide,0
+656,Sarah Davis,7 days,Video,1
+657,Emily Davis,7 days,Interactive Guide,1
+658,Jane Martinez,7 days,Video,0
+659,Chris Rodriguez,14 days,Video,0
+660,Laura Martinez,14 days,Interactive Guide,0
+661,Anna Smith,14 days,Video,1
+662,Jane Garcia,7 days,Video,1
+663,Anna Jones,7 days,Interactive Guide,1
+664,Chris Jones,14 days,Video,0
+665,Jane Martinez,7 days,Video,1
+666,Emily Rodriguez,7 days,Interactive Guide,1
+667,John Smith,14 days,Interactive Guide,0
+668,David Williams,14 days,Video,1
+669,Anna Johnson,7 days,Video,0
+670,Chris Williams,7 days,Interactive Guide,1
+671,Jane Davis,7 days,Interactive Guide,0
+672,Anna Garcia,14 days,Video,1
+673,Sarah Martinez,14 days,Interactive Guide,1
+674,David Miller,14 days,Video,1
+675,Sarah Brown,14 days,Video,1
+676,Chris Garcia,7 days,Video,0
+677,Emily Williams,14 days,Video,0
+678,Emily Williams,14 days,Video,0
+679,Jane Jones,14 days,Interactive Guide,0
+680,Jane Garcia,14 days,Interactive Guide,1
+681,Alex Garcia,14 days,Interactive Guide,0
+682,Anna Rodriguez,7 days,Interactive Guide,1
+683,John Garcia,7 days,Video,1
+684,Chris Brown,14 days,Video,1
+685,Jane Brown,7 days,Video,0
+686,John Williams,14 days,Video,1
+687,Anna Rodriguez,14 days,Interactive Guide,1
+688,Anna Jones,7 days,Video,0
+689,Sarah Williams,7 days,Video,1
+690,Michael Davis,14 days,Interactive Guide,1
+691,Sarah Brown,14 days,Interactive Guide,0
+692,Jane Rodriguez,14 days,Interactive Guide,1
+693,John Smith,7 days,Interactive Guide,0
+694,Emily Miller,14 days,Video,0
+695,John Rodriguez,14 days,Video,0
+696,Emily Williams,14 days,Interactive Guide,0
+697,John Martinez,7 days,Video,0
+698,Emily Rodriguez,14 days,Video,0
+699,Anna Garcia,14 days,Video,1
+700,Sarah Smith,7 days,Interactive Guide,1
+701,Anna Johnson,14 days,Video,1
+702,Sarah Johnson,14 days,Interactive Guide,0
+703,Alex Brown,7 days,Video,0
+704,Michael Rodriguez,14 days,Video,1
+705,Emily Rodriguez,7 days,Video,0
+706,Anna Williams,7 days,Interactive Guide,0
+707,Laura Smith,14 days,Video,1
+708,Chris Rodriguez,14 days,Interactive Guide,0
+709,Anna Johnson,14 days,Interactive Guide,1
+710,Emily Davis,14 days,Interactive Guide,1
+711,David Smith,7 days,Video,0
+712,Michael Miller,14 days,Video,0
+713,Emily Smith,7 days,Video,1
+714,Chris Jones,14 days,Video,0
+715,Jane Davis,14 days,Interactive Guide,0
+716,Jane Williams,14 days,Interactive Guide,1
+717,Anna Smith,7 days,Interactive Guide,0
+718,Jane Miller,14 days,Video,1
+719,Anna Johnson,14 days,Interactive Guide,1
+720,Sarah Williams,14 days,Video,0
+721,Emily Davis,14 days,Interactive Guide,0
+722,Alex Martinez,7 days,Video,0
+723,Sarah Smith,14 days,Video,0
+724,David Davis,7 days,Interactive Guide,0
+725,Laura Williams,7 days,Interactive Guide,1
+726,Anna Smith,7 days,Interactive Guide,0
+727,Chris Garcia,7 days,Interactive Guide,1
+728,Chris Miller,7 days,Video,1
+729,John Smith,7 days,Interactive Guide,1
+730,Sarah Jones,14 days,Interactive Guide,1
+731,Chris Johnson,7 days,Interactive Guide,0
+732,Laura Jones,7 days,Video,1
+733,Jane Martinez,7 days,Video,1
+734,Sarah Martinez,14 days,Interactive Guide,0
+735,Laura Brown,14 days,Video,0
+736,Jane Jones,7 days,Interactive Guide,1
+737,Jane Johnson,14 days,Video,0
+738,Sarah Martinez,7 days,Video,0
+739,Chris Brown,7 days,Video,0
+740,Sarah Miller,14 days,Video,0
+741,Sarah Davis,7 days,Interactive Guide,1
+742,Emily Smith,14 days,Interactive Guide,1
+743,David Williams,14 days,Interactive Guide,1
+744,Sarah Johnson,7 days,Video,0
+745,Chris Smith,7 days,Interactive Guide,0
+746,Sarah Garcia,14 days,Interactive Guide,0
+747,Michael Jones,7 days,Interactive Guide,0
+748,John Martinez,7 days,Video,0
+749,Michael Johnson,7 days,Video,1
+750,David Williams,14 days,Video,0
+751,Emily Williams,14 days,Interactive Guide,1
+752,Alex Brown,7 days,Interactive Guide,0
+753,Michael Smith,14 days,Interactive Guide,0
+754,Emily Davis,14 days,Video,0
+755,Anna Miller,14 days,Video,1
+756,Chris Jones,14 days,Interactive Guide,1
+757,Anna Brown,14 days,Video,1
+758,Laura Rodriguez,7 days,Video,0
+759,David Miller,7 days,Video,0
+760,Michael Brown,7 days,Video,1
+761,Anna Smith,14 days,Interactive Guide,0
+762,Anna Martinez,14 days,Video,1
+763,David Smith,7 days,Video,0
+764,John Jones,14 days,Video,0
+765,Chris Garcia,7 days,Video,0
+766,Alex Williams,7 days,Interactive Guide,0
+767,David Garcia,7 days,Interactive Guide,1
+768,Chris Garcia,14 days,Video,0
+769,Michael Martinez,14 days,Video,0
+770,David Smith,7 days,Video,0
+771,David Williams,7 days,Video,0
+772,Chris Garcia,7 days,Video,1
+773,Chris Jones,7 days,Video,1
+774,David Brown,14 days,Interactive Guide,1
+775,David Smith,14 days,Video,1
+776,David Davis,7 days,Interactive Guide,0
+777,Michael Johnson,7 days,Interactive Guide,1
+778,Michael Garcia,14 days,Video,0
+779,Jane Garcia,14 days,Interactive Guide,0
+780,Sarah Smith,7 days,Interactive Guide,1
+781,John Martinez,7 days,Interactive Guide,0
+782,Alex Martinez,7 days,Interactive Guide,1
+783,Anna Williams,14 days,Interactive Guide,0
+784,Emily Johnson,14 days,Interactive Guide,1
+785,Chris Martinez,14 days,Video,1
+786,David Miller,7 days,Interactive Guide,1
+787,Sarah Williams,7 days,Interactive Guide,1
+788,Sarah Davis,14 days,Interactive Guide,1
+789,Laura Rodriguez,14 days,Video,0
+790,John Smith,7 days,Interactive Guide,1
+791,Alex Williams,14 days,Video,0
+792,Anna Davis,14 days,Interactive Guide,1
+793,Anna Smith,7 days,Video,1
+794,Jane Johnson,14 days,Video,1
+795,Alex Garcia,7 days,Interactive Guide,0
+796,John Johnson,7 days,Interactive Guide,0
+797,John Jones,7 days,Video,1
+798,David Davis,7 days,Interactive Guide,0
+799,Anna Smith,7 days,Video,0
+800,David Jones,7 days,Video,0
+801,Anna Smith,7 days,Video,1
+802,Alex Miller,14 days,Video,1
+803,Anna Smith,7 days,Video,0
+804,David Jones,7 days,Interactive Guide,0
+805,John Smith,14 days,Video,0
+806,John Rodriguez,14 days,Video,1
+807,Alex Jones,14 days,Interactive Guide,1
+808,Anna Rodriguez,7 days,Video,0
+809,Sarah Rodriguez,14 days,Interactive Guide,0
+810,Laura Davis,7 days,Interactive Guide,0
+811,John Rodriguez,7 days,Interactive Guide,1
+812,Sarah Rodriguez,7 days,Video,1
+813,Alex Williams,7 days,Video,0
+814,Sarah Rodriguez,14 days,Video,0
+815,David Williams,14 days,Interactive Guide,0
+816,Alex Johnson,7 days,Video,1
+817,Chris Williams,7 days,Interactive Guide,0
+818,Michael Rodriguez,7 days,Video,1
+819,Laura Johnson,14 days,Interactive Guide,1
+820,Alex Johnson,7 days,Video,0
+821,Laura Garcia,7 days,Video,0
+822,Sarah Rodriguez,14 days,Video,0
+823,Laura Brown,14 days,Interactive Guide,1
+824,Emily Rodriguez,7 days,Interactive Guide,1
+825,John Johnson,14 days,Video,1
+826,Jane Garcia,14 days,Video,1
+827,Emily Martinez,7 days,Interactive Guide,0
+828,Alex Williams,14 days,Interactive Guide,1
+829,Alex Garcia,7 days,Interactive Guide,1
+830,Laura Miller,14 days,Video,0
+831,Emily Brown,7 days,Interactive Guide,1
+832,Anna Johnson,7 days,Video,1
+833,John Rodriguez,7 days,Interactive Guide,1
+834,Jane Davis,14 days,Video,1
+835,Chris Brown,7 days,Interactive Guide,1
+836,Laura Rodriguez,14 days,Interactive Guide,1
+837,Anna Martinez,7 days,Interactive Guide,0
+838,Michael Miller,7 days,Interactive Guide,0
+839,Anna Brown,14 days,Interactive Guide,1
+840,John Williams,7 days,Video,0
+841,Michael Williams,7 days,Interactive Guide,0
+842,David Rodriguez,14 days,Interactive Guide,0
+843,Sarah Martinez,7 days,Interactive Guide,0
+844,John Miller,7 days,Video,1
+845,Alex Jones,7 days,Interactive Guide,1
+846,Anna Brown,7 days,Video,0
+847,Anna Jones,14 days,Interactive Guide,0
+848,Michael Garcia,14 days,Interactive Guide,0
+849,Anna Martinez,7 days,Video,1
+850,Sarah Davis,14 days,Interactive Guide,1
+851,Laura Rodriguez,7 days,Video,0
+852,Laura Johnson,14 days,Video,1
+853,Anna Smith,7 days,Interactive Guide,1
+854,Anna Johnson,7 days,Video,1
+855,Jane Williams,7 days,Interactive Guide,1
+856,Anna Miller,7 days,Interactive Guide,0
+857,Jane Smith,7 days,Video,1
+858,Sarah Rodriguez,7 days,Video,0
+859,Alex Garcia,14 days,Video,1
+860,Alex Smith,7 days,Video,1
+861,Michael Martinez,14 days,Interactive Guide,1
+862,Emily Miller,7 days,Interactive Guide,1
+863,Sarah Martinez,14 days,Video,0
+864,David Jones,14 days,Interactive Guide,1
+865,Emily Miller,14 days,Interactive Guide,1
+866,David Garcia,7 days,Interactive Guide,1
+867,Laura Brown,7 days,Interactive Guide,0
+868,Anna Jones,14 days,Video,0
+869,Emily Smith,7 days,Video,0
+870,Laura Smith,14 days,Interactive Guide,1
+871,Michael Garcia,7 days,Video,1
+872,Sarah Jones,14 days,Video,0
+873,Alex Jones,14 days,Video,1
+874,Laura Johnson,7 days,Interactive Guide,1
+875,Sarah Rodriguez,14 days,Interactive Guide,1
+876,Laura Davis,7 days,Interactive Guide,1
+877,Laura Miller,14 days,Video,1
+878,Laura Garcia,14 days,Interactive Guide,1
+879,Jane Johnson,7 days,Interactive Guide,0
+880,Laura Smith,7 days,Video,1
+881,Sarah Garcia,7 days,Interactive Guide,1
+882,Emily Martinez,14 days,Interactive Guide,1
+883,Alex Williams,7 days,Video,1
+884,John Williams,14 days,Video,1
+885,Emily Jones,14 days,Video,0
+886,Alex Garcia,7 days,Interactive Guide,0
+887,Michael Williams,7 days,Interactive Guide,0
+888,Sarah Garcia,14 days,Interactive Guide,0
+889,Laura Johnson,14 days,Video,1
+890,John Brown,7 days,Video,1
+891,David Martinez,7 days,Interactive Guide,0
+892,Alex Williams,7 days,Interactive Guide,0
+893,Michael Jones,7 days,Video,1
+894,Anna Williams,7 days,Video,0
+895,Chris Brown,14 days,Video,1
+896,Alex Johnson,14 days,Video,1
+897,Anna Rodriguez,14 days,Interactive Guide,1
+898,Emily Williams,14 days,Video,0
+899,David Davis,7 days,Interactive Guide,0
+900,Jane Miller,7 days,Interactive Guide,1
+901,Michael Jones,7 days,Interactive Guide,1
+902,Alex Jones,14 days,Video,0
+903,Jane Brown,14 days,Video,1
+904,Sarah Smith,7 days,Video,0
+905,Anna Brown,7 days,Video,1
+906,Sarah Rodriguez,14 days,Interactive Guide,0
+907,Jane Miller,14 days,Video,1
+908,Sarah Johnson,7 days,Video,0
+909,Laura Miller,7 days,Interactive Guide,0
+910,Michael Jones,14 days,Video,0
+911,David Rodriguez,7 days,Interactive Guide,0
+912,Chris Rodriguez,7 days,Interactive Guide,1
+913,Sarah Martinez,7 days,Interactive Guide,1
+914,Sarah Williams,14 days,Interactive Guide,0
+915,John Miller,14 days,Interactive Guide,0
+916,Emily Smith,14 days,Interactive Guide,1
+917,Laura Garcia,14 days,Interactive Guide,1
+918,Sarah Johnson,14 days,Interactive Guide,1
+919,John Johnson,14 days,Video,0
+920,Emily Johnson,14 days,Video,0
+921,John Miller,7 days,Video,1
+922,Laura Garcia,7 days,Video,0
+923,Emily Garcia,7 days,Interactive Guide,1
+924,Alex Davis,7 days,Video,0
+925,Anna Johnson,7 days,Interactive Guide,1
+926,Michael Smith,7 days,Video,0
+927,Sarah Johnson,7 days,Video,1
+928,Emily Garcia,14 days,Video,0
+929,Anna Davis,14 days,Interactive Guide,1
+930,Laura Garcia,7 days,Video,0
+931,Emily Davis,7 days,Interactive Guide,1
+932,Laura Martinez,14 days,Interactive Guide,1
+933,John Brown,7 days,Video,1
+934,Emily Miller,7 days,Video,1
+935,David Davis,14 days,Video,1
+936,Michael Miller,7 days,Interactive Guide,1
+937,Laura Rodriguez,14 days,Video,0
+938,Alex Williams,7 days,Interactive Guide,1
+939,Emily Jones,14 days,Interactive Guide,0
+940,Anna Smith,14 days,Video,0
+941,David Rodriguez,14 days,Video,0
+942,Laura Jones,7 days,Interactive Guide,0
+943,Emily Miller,14 days,Interactive Guide,1
+944,Michael Miller,7 days,Interactive Guide,1
+945,John Smith,7 days,Video,1
+946,Anna Williams,7 days,Interactive Guide,1
+947,Jane Johnson,7 days,Video,0
+948,David Martinez,14 days,Interactive Guide,0
+949,Jane Brown,14 days,Interactive Guide,0
+950,Jane Garcia,7 days,Video,0
+951,Laura Martinez,7 days,Interactive Guide,0
+952,Emily Jones,14 days,Video,0
+953,Emily Williams,7 days,Video,1
+954,Michael Rodriguez,14 days,Interactive Guide,1
+955,Laura Davis,7 days,Video,1
+956,Laura Davis,7 days,Video,1
+957,David Davis,14 days,Interactive Guide,1
+958,Laura Davis,7 days,Video,0
+959,Anna Miller,14 days,Video,1
+960,John Brown,7 days,Video,1
+961,Emily Jones,7 days,Interactive Guide,0
+962,Anna Garcia,7 days,Video,0
+963,Emily Johnson,14 days,Interactive Guide,1
+964,Sarah Davis,7 days,Interactive Guide,0
+965,Laura Miller,7 days,Video,1
+966,Sarah Johnson,7 days,Video,1
+967,David Jones,7 days,Video,0
+968,Sarah Martinez,14 days,Interactive Guide,0
+969,Laura Davis,14 days,Video,0
+970,Alex Miller,7 days,Video,0
+971,John Smith,14 days,Video,0
+972,David Martinez,7 days,Video,1
+973,Chris Miller,7 days,Video,0
+974,Anna Jones,7 days,Interactive Guide,1
+975,Laura Johnson,14 days,Interactive Guide,0
+976,Chris Garcia,14 days,Video,1
+977,Chris Johnson,14 days,Video,0
+978,Alex Davis,14 days,Video,0
+979,John Martinez,14 days,Video,1
+980,David Miller,14 days,Interactive Guide,1
+981,John Rodriguez,14 days,Video,0
+982,Laura Brown,14 days,Interactive Guide,1
+983,Anna Jones,14 days,Interactive Guide,0
+984,Jane Rodriguez,7 days,Video,0
+985,Sarah Williams,14 days,Interactive Guide,0
+986,David Rodriguez,14 days,Interactive Guide,0
+987,Alex Johnson,14 days,Interactive Guide,1
+988,David Miller,14 days,Interactive Guide,0
+989,Emily Rodriguez,14 days,Video,0
+990,Laura Smith,14 days,Video,1
+991,John Jones,14 days,Interactive Guide,1
+992,Sarah Williams,14 days,Video,0
+993,Chris Martinez,14 days,Video,1
+994,Sarah Brown,14 days,Video,0
+995,David Davis,14 days,Video,1
+996,Chris Garcia,7 days,Video,1
+997,Sarah Davis,7 days,Interactive Guide,1
+998,Michael Williams,14 days,Video,0
+999,Alex Garcia,14 days,Video,0
+1000,Jane Garcia,7 days,Video,0

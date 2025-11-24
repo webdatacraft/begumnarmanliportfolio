@@ -1,0 +1,403 @@
+.data-analysis-hero {
+  background-color: #a0cdd1;
+  position: relative;
+  min-height: 42vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.data-analysis-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #006064 0%, #00838f 100%);
+  opacity: 0.5;
+  animation: blink 10s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.data-analysis-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 1px 0px #666, 2px 2px 0px #555, 3px 3px 0px #444,
+    4px 4px 0px #333, 5px 5px 0px #222, 6px 6px 0px #111;
+}
+
+.data-analysis-hero p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  font-style: italic;
+}
+
+/* Modal Pencere Stili */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+/* Modal İçerik */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin: 5% auto;
+  border: 2px solid #888;
+  width: 85%;
+  border-radius: 15px;
+}
+
+.graphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.graphs img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  display: inline block;
+  margin: 10px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.graph-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.graph-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.analysis-report {
+  text-align: center;
+  font-size: 16px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.modal-content h2,
+.modal-content p {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.graphs {
+  flex-direction: column;
+  align-items: center;
+}
+
+.graphs img,
+.analysis-report {
+  max-width: 90%;
+}
+
+/* Kapatma Butonu */
+.close {
+  color: black;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* Proje Kartları */
+.portfolio-gallery {
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.project-info h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.project-info p {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.project-tags {
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.project-tags span {
+  background-color: var(--light-bg);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+/* Detaylar Butonu */
+.project-link {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* İstatistikler Bölümü */
+.statistics {
+  background: var(--gradient-1);
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 0 auto;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e0f7fa;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+}
+
+/* Teknolojiler Bölümü */
+.technologies {
+  padding: 4rem 2rem;
+  background-color: var(--light-bg);
+}
+
+.technologies h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tech-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.tech-item i {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.tech-item span {
+  display: block;
+  color: var(--text-color);
+}
+
+.portfolio-gallery {
+  grid-template-columns: 1fr;
+}
+
+.tech-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#iletisim-veri-analizi {
+  background-color: white;
+}
+
+#iletisim-veri-analizi .contact-form input,
+#iletisim-veri-analizi .contact-form textarea {
+  border: 1px solid var(--secondary-color);
+}
+/* ===========================
+  TABLET
+=========================== */
+@media (min-width: 768px) {
+  .data-analysis-hero h1 {
+    font-size: 3rem;
+  }
+
+  .data-analysis-hero p {
+    font-size: 1.7rem;
+  }
+  .project-aciklama {
+    font-size: 1.5rem;
+  }
+  .project-info h3 {
+    font-size: 1.7rem;
+  }
+  .project-tags span {
+    font-size: 1.5rem;
+  }
+  .project-link {
+    padding: 20px 30px;
+    font-size: 1.3rem;
+  }
+  .stat-item h3{
+    font-size: 3rem;
+  }
+  .stat-item p{
+    font-size: 1.7rem;
+  }
+  .technologies h2{
+    font-size: 2rem;
+  }
+  .portfolio-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .stats-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(155px, 2fr));
+  }
+  .tech-item i{
+    font-size: 4rem;
+  }
+  .tech-item span{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width:1024px){
+      .portfolio-gallery {
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+  }
+    .project-aciklama {
+    font-size: 1.1rem;
+  }
+  .project-info h3 {
+    font-size: 1.5rem;
+  }
+  .project-tags span {
+    font-size: 1.2rem;
+  }
+  .project-link {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+    .stat-item h3{
+    font-size: 2rem;
+  }
+  .stat-item p{
+    font-size: 1.2rem;
+  }
+    .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(25px, 2fr));
+  }
+    .tech-item i{
+    font-size: 2rem;
+  }
+  .tech-item span{
+    font-size: 1.2rem;
+  }
+}

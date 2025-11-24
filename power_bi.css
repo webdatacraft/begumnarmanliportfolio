@@ -1,0 +1,388 @@
+/* Power BI Hero Stili */
+.powerbi-hero {
+    position: relative;
+    background-color: #A0CDD1;
+    min-height: 42vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+/* İçerik */
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.powerbi-hero h1 {
+    font-size: 2.5rem ;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.powerbi-hero p {
+    font-size: 1.5rem;
+    max-width: 700px;
+}
+
+/* Duman konteyneri */
+.smoke-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Duman parçacıkları */
+.smoke {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, #006064 0%, #00838f 100%);
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: smokeAnim 6s infinite ease-in-out;
+}
+
+/* Duman Hareket Animasyonu */
+@keyframes smokeAnim {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-150px) scale(1.5);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateY(-300px) scale(2);
+        opacity: 0;
+    }
+}
+
+/* Dumanların farklı konumlardan çıkmasını sağlamak için */
+.smoke:nth-child(1) { left: 10%; animation-delay: 0s; width: 30px; height: 30px; }
+.smoke:nth-child(2) { left: 30%; animation-delay: 1.5s; width: 40px; height: 40px; }
+.smoke:nth-child(3) { left: 50%; animation-delay: 3s; width: 35px; height: 35px; }
+.smoke:nth-child(4) { left: 70%; animation-delay: 2s; width: 25px; height: 25px; }
+.smoke:nth-child(5) { left: 90%; animation-delay: 4s; width: 45px; height: 45px; }
+
+
+/* Dashboard Showcase Stili */
+.dashboard-showcase {
+    padding: 3rem 1rem;
+    background-color: var(--light-bg);
+}
+
+.dashboard-showcase h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 2rem auto;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-image {
+    position: relative;
+    height: 250px;
+}
+
+.dashboard-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.preview-btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: fit-content; 
+    margin: 1.5rem auto 0 auto; 
+}
+
+.preview-btn:hover {
+    background-color: var(--primary-color);
+}
+
+.dashboard-info {
+    padding: 1.5rem;
+}
+
+.dashboard-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-info p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tags span {
+    background-color: var(--light-bg);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+/* Power BI Yetenekler Bölümü */
+.powerbi-skills {
+    padding: 4rem 2rem;
+    background-color: white;
+}
+
+.powerbi-skills h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-item i {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.skill-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.skill-item p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Başarı Hikayeleri */
+.success-stories {
+    padding: 4rem 2rem;
+    background-color: var(--light-bg);
+}
+
+.success-stories h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.stories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.client-info {
+    margin-bottom: 1.5rem;
+}
+
+.client-info img {
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.client-role {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.testimonial {
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+#iletisim-power-bi {
+    background-color: white;
+}
+
+#iletisim-power-bi .contact-form input,
+#iletisim-power-bi .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+}
+/* Responsive Tasarım */
+@media (min-width: 768px) {
+    .powerbi-hero h1 {
+        font-size: 3rem;
+    }
+    
+    .powerbi-hero p {
+        font-size: 1.7rem;
+    }
+    .dashboard-showcase h2{
+        font-size: 2rem;
+    }
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    .dashboard-image {
+    height: 400px;
+    }
+    .dashboard-info h3{
+        font-size: 2rem;
+    }
+    .dashboard-info p{
+        font-size: 1.4rem;
+    }
+    .tags span{
+        font-size: 1.5rem;
+    }
+    .preview-btn{
+        padding: 20px 30px;
+        font-size: 1.3rem;
+    }
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    .powerbi-skills h2{
+        font-size: 2rem;
+    }
+    .skill-item i{
+        font-size: 3rem;
+    }
+    .skill-item h3{
+        font-size: 2rem;
+    }
+    .skill-item p{
+        font-size: 1.4rem;
+    }
+    .success-stories h2{
+        font-size: 2rem;
+    }
+    .success-h3{
+        font-size: 2rem;
+    }
+    .client-role{
+        font-size: 1.7rem;
+    }
+    .testimonial{
+        font-size: 1.5rem;
+    }
+    .stories-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width:1024px){
+        .dashboard-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+        .dashboard-info h3{
+        font-size: 1.5rem;
+    }
+    .dashboard-info p{
+        font-size: 1.1rem;
+    }
+    .tags span{
+        font-size: 1.2rem;
+    }
+    .preview-btn{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+        .skills-grid {
+        grid-template-columns: repeat(4,1fr);
+    }
+        .skill-item i{
+        font-size: 2rem;
+    }
+    .skill-item h3{
+        font-size: 1.5rem;
+    }
+    .skill-item p{
+        font-size: 1.1rem;
+    }
+        .success-h3{
+        font-size: 1.7rem;
+    }
+    .client-role{
+        font-size: 1.3rem;
+    }
+    .testimonial{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Tasarım - Begüm Narmanlı</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="web_tasarimi.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="web-app-manifest-192x192.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#1C2A3A" />
+
+    <meta name="theme-color" content="#1C2A3A" />
+  </head>
+  <body>
+    <!-- Navigasyon -->
+    <nav>
+      <div class="logo">
+        <img src="logom.jpeg" alt="Begüm NARMANLI Logo" />
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="web_tasarimi.html">WEB TASARIM</a></li>
+        <li><a href="veri_analizi.html">VERİ ANALİZİ</a></li>
+        <li><a href="power_bi.html">POWER BI</a></li>
+        <li><a href="#iletisim">İLETİŞİM</a></li>
+      </ul>
+    </nav>
+
+    <!-- Web Tasarım Hero Bölümü -->
+    <section class="page-hero web-design-hero">
+      <div class="hero-content">
+        <h1>Web Tasarım Projeleri</h1>
+        <p>Modern ve kullanıcı dostu web siteleri</p>
+      </div>
+    </section>
+
+    <!-- Projeler Galerisi -->
+    <section class="portfolio-gallery">
+      <div class="project-card">
+        <img src="images/ecohome.jpg" alt="E-ticaret Projesi" />
+        <div class="project-info">
+          <h3>E-ticaret Web Sitesi</h3>
+          <p>Responsive tasarım, SEO uyumlu</p>
+          <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <a
+            href="https://webdatacraft.github.io/ecohome_essentials/"
+            class="project-link"
+            target="_blank"
+            >Projeyi İncele</a
+          >
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="./narmanlı-mobilya/resimler/hakkimizda/giris-1.png"
+          alt="Kurumsal Web Sitesi"
+        />
+        <div class="project-info">
+          <h3>Kurumsal Web Sitesi</h3>
+          <p>Modern ve profesyonel tasarım</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>SASS</span>
+            <span>Node.js</span>
+          </div>
+          <a
+            href="https://webdatacraft.github.io/narmanli_mobilya/"
+            class="project-link"
+            target="_blank"
+            >Projeyi İncele</a
+          >
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="soylu_style/images/blog.jpg" alt="Blog Sitesi" />
+        <div class="project-info">
+          <h3>Kişisel Blog Sitesi</h3>
+          <p>Minimal ve şık tasarım</p>
+          <div class="project-tags">
+            <span>WordPress</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+          <a
+            href="https://webdatacraft.github.io/soylu_style/"
+            class="project-link"
+            target="_blank"
+            >Projeyi İncele</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Teknolojiler -->
+    <section class="technologies">
+      <h2>KULLANILAN TEKNOLOJİLER</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-react"></i>
+          <span>React</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-wordpress"></i>
+          <span>WordPress</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-node-js"></i>
+          <span>Node.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section class="contact" id="iletisim">
+      <h2>İLETİŞİM</h2>
+      <div class="contact-form">
+        <form id="contact-form">
+          <input type="text" placeholder="Adınız" required />
+          <input type="email" placeholder="E-posta" required />
+          <textarea placeholder="Mesajınız" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Begüm Narmanlı tarafından tasarlanmıştır. Tüm hakları
+        saklıdır.
+      </p>
+    </footer>
+    <button id="scrollToTopBtn" title="Sayfa Başına Dön">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>

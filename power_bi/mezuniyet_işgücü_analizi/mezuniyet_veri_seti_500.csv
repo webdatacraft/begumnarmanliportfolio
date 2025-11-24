@@ -1,0 +1,501 @@
+﻿Öğrenci ID,Bölüm,Cinsiyet,Yaş,Mezuniyet Durumu,Mezuniyet Yılı,Mezuniyet Oranı,Not Ortalaması,İşe Yerleşme Durumu,İş Bulma Süresi (Ay),Sektör,Maaş (TL)
+1,Hukuk,Kadın,23,Mezun,2024,73,3.46,İşe Yerleşti,8,Sanayi,81954
+2,Psikoloji,Erkek,23,Mezun,2021,94,2.2,İşe Yerleşti,4,Hukuk,144858
+3,Matematik,Erkek,21,Mezun,2018,71,2.07,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+4,Hukuk,Kadın,29,Mezun,2024,93,3.8,İşe Yerleşti,8,Serbest Meslek,72351
+5,İktisat,Kadın,27,Mezun,2021,87,3.12,İşe Yerleşti,9,Danışmanlık,57631
+6,Hukuk,Erkek,23,Mezun,2018,76,2.99,İşe Yerleşti,10,Sanayi,90392
+7,İktisat,Kadın,29,Mezun,2018,82,2.4,İşe Yerleşti,9,Araştırma,75950
+8,Matematik,Kadın,21,Mezun,2020,84,3.99,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+9,Tıp,Kadın,27,Mezun,2019,89,2.16,İşe Yerleşti,10,Serbest Meslek,122402
+10,Hukuk,Erkek,21,Mezun,2023,74,3.36,İşe Yerleşti,10,Serbest Meslek,89687
+11,Makine Mühendisliği,Erkek,28,Mezun,2021,80,2.61,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+12,Bilgisayar Mühendisliği,Erkek,30,Mezun,2018,82,2.47,İşe Yerleşti,1,Sağlık,97096
+13,Hukuk,Erkek,27,Mezun,2023,78,3.71,İşe Yerleşti,8,Sanayi,64689
+14,İşletme,Erkek,21,Mezun,2019,73,2.6,İşe Yerleşti,11,Danışmanlık,92874
+15,Bilgisayar Mühendisliği,Kadın,20,Mezun,2021,78,2.43,İşe Yerleşti,7,Sanayi,115104
+16,Matematik,Kadın,27,Mezun,2019,86,2.74,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+17,Hukuk,Erkek,20,Mezun,2021,88,2.73,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+18,Bilgisayar Mühendisliği,Erkek,25,Mezun,2020,99,2.92,İşe Yerleşti,6,Hukuk,89277
+19,İşletme,Kadın,21,Mezun,2024,95,2.56,İşe Yerleşti,4,Eğitim,146300
+20,İşletme,Erkek,20,Mezun,2021,73,2.16,İşe Yerleşti,1,Serbest Meslek,129247
+21,Kimya,Erkek,20,Mezun,2019,80,3.58,İşe Yerleşti,7,Devlet Kurumu,64954
+22,İşletme,Erkek,21,Mezun,2018,87,3.06,İşe Yerleşti,7,Sanayi,100971
+23,İktisat,Erkek,23,Mezun,2018,88,2.04,İşe Yerleşti,7,Serbest Meslek,91619
+24,Psikoloji,Kadın,25,Mezun,2020,84,3.42,İşe Yerleşti,9,Sanayi,102298
+25,İşletme,Erkek,21,Mezun,2021,97,2.79,İşe Yerleşti,3,Danışmanlık,104895
+26,Kimya,Kadın,22,Mezun,2020,94,2.71,İşe Yerleşti,2,Araştırma,120066
+27,Psikoloji,Kadın,25,Devam Ediyor,0,-1,2.15,Okuyor,0,Henüz İşe Yerleşmedi,0
+28,İktisat,Erkek,29,Devam Ediyor,0,-1,3.61,Okuyor,0,Henüz İşe Yerleşmedi,0
+29,Makine Mühendisliği,Erkek,27,Mezun,2021,77,3.28,İşe Yerleşti,6,Eğitim,84831
+30,Matematik,Kadın,27,Mezun,2021,91,2.29,İşe Yerleşti,10,Hukuk,128096
+31,Tıp,Kadın,23,Devam Ediyor,0,-1,2.05,Okuyor,0,Henüz İşe Yerleşmedi,0
+32,Tıp,Kadın,26,Mezun,2024,96,4,İşe Yerleşti,10,Eğitim,64179
+33,Bilgisayar Mühendisliği,Kadın,21,Mezun,2023,98,3.04,İşe Yerleşti,8,Serbest Meslek,85169
+34,Hukuk,Kadın,25,Mezun,2023,82,2.85,İşe Yerleşti,12,Serbest Meslek,149807
+35,Hukuk,Kadın,21,Devam Ediyor,0,-1,3.06,Okuyor,0,Henüz İşe Yerleşmedi,0
+36,İşletme,Kadın,30,Mezun,2023,85,3.41,İşe Yerleşti,5,Sağlık,144781
+37,İşletme,Kadın,24,Mezun,2018,86,3.39,İşe Yerleşti,5,Serbest Meslek,121242
+38,Bilgisayar Mühendisliği,Erkek,23,Devam Ediyor,0,-1,3.43,Okuyor,0,Henüz İşe Yerleşmedi,0
+39,Elektrik Mühendisliği,Erkek,26,Mezun,2020,98,2.19,İşe Yerleşti,11,Devlet Kurumu,113601
+40,Bilgisayar Mühendisliği,Kadın,27,Mezun,2022,85,3.94,İşe Yerleşti,11,Araştırma,121997
+41,İktisat,Kadın,21,Mezun,2020,96,3.19,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+42,Kimya,Kadın,26,Mezun,2022,90,3.66,İşe Yerleşti,4,Araştırma,110972
+43,Tıp,Erkek,30,Devam Ediyor,0,-1,3.01,Okuyor,0,Henüz İşe Yerleşmedi,0
+44,Bilgisayar Mühendisliği,Kadın,26,Devam Ediyor,0,-1,2.87,Okuyor,0,Henüz İşe Yerleşmedi,0
+45,Makine Mühendisliği,Erkek,27,Mezun,2019,85,2.51,İşe Yerleşti,12,Araştırma,131546
+46,Tıp,Erkek,21,Mezun,2022,79,3.14,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+47,Bilgisayar Mühendisliği,Erkek,23,Mezun,2023,70,2.62,İşe Yerleşti,2,Finans,127547
+48,Elektrik Mühendisliği,Kadın,24,Mezun,2023,97,3.17,İşe Yerleşti,3,Teknoloji,148172
+49,Kimya,Kadın,30,Mezun,2024,87,2.15,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+50,Kimya,Erkek,23,Mezun,2023,77,2.28,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+51,Hukuk,Kadın,21,Mezun,2022,86,2.03,İşe Yerleşti,4,Danışmanlık,128060
+52,İktisat,Erkek,24,Mezun,2020,87,2.39,İşe Yerleşti,9,Sağlık,98935
+53,Matematik,Kadın,29,Mezun,2018,100,2.77,İşe Yerleşti,9,Hukuk,59392
+54,İşletme,Erkek,21,Mezun,2022,94,3.08,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+55,Kimya,Erkek,23,Mezun,2018,79,3.72,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+56,Bilgisayar Mühendisliği,Erkek,28,Devam Ediyor,0,-1,2.51,Okuyor,0,Henüz İşe Yerleşmedi,0
+57,Matematik,Kadın,26,Devam Ediyor,0,-1,2.11,Okuyor,0,Henüz İşe Yerleşmedi,0
+58,Tıp,Kadın,20,Devam Ediyor,0,-1,3.95,Okuyor,0,Henüz İşe Yerleşmedi,0
+59,İktisat,Kadın,23,Mezun,2023,96,2.98,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+60,Kimya,Erkek,24,Mezun,2020,97,2.98,İşe Yerleşti,3,Eğitim,99213
+61,Makine Mühendisliği,Erkek,20,Mezun,2023,76,2.47,İşe Yerleşti,9,Hukuk,133172
+62,Kimya,Erkek,25,Mezun,2022,88,2.25,İşe Yerleşti,5,Danışmanlık,140818
+63,Tıp,Erkek,28,Mezun,2022,75,3.07,İşe Yerleşti,1,Hukuk,137267
+64,Bilgisayar Mühendisliği,Erkek,22,Mezun,2022,100,3.32,İşe Yerleşti,10,Araştırma,90426
+65,Makine Mühendisliği,Kadın,29,Mezun,2022,71,2.93,İşe Yerleşti,5,Serbest Meslek,78851
+66,Tıp,Kadın,29,Mezun,2020,94,2.57,İşe Yerleşti,2,Eğitim,53698
+67,Bilgisayar Mühendisliği,Erkek,22,Mezun,2024,76,2.81,İşe Yerleşti,6,Sağlık,106299
+68,Hukuk,Erkek,23,Mezun,2018,96,3.89,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+69,Bilgisayar Mühendisliği,Kadın,27,Mezun,2018,80,2.76,İşe Yerleşti,9,Sanayi,113196
+70,Matematik,Kadın,27,Mezun,2023,85,2.43,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+71,İşletme,Kadın,24,Mezun,2024,86,3.24,İşe Yerleşti,10,Araştırma,70170
+72,Kimya,Kadın,20,Mezun,2020,75,2.37,İşe Yerleşti,11,Danışmanlık,72954
+73,Psikoloji,Erkek,27,Devam Ediyor,0,-1,2.15,Okuyor,0,Henüz İşe Yerleşmedi,0
+74,Elektrik Mühendisliği,Erkek,20,Devam Ediyor,0,-1,3.04,Okuyor,0,Henüz İşe Yerleşmedi,0
+75,Elektrik Mühendisliği,Erkek,20,Mezun,2019,83,2.13,İşe Yerleşti,8,Devlet Kurumu,108054
+76,Matematik,Kadın,20,Devam Ediyor,0,-1,2.91,Okuyor,0,Henüz İşe Yerleşmedi,0
+77,Bilgisayar Mühendisliği,Kadın,21,Mezun,2021,86,3.11,İşe Yerleşti,11,Serbest Meslek,123979
+78,İşletme,Kadın,23,Mezun,2019,87,3.37,İşe Yerleşti,3,Devlet Kurumu,104994
+79,Psikoloji,Kadın,23,Mezun,2022,95,2.42,İşe Yerleşti,4,Finans,136888
+80,Hukuk,Erkek,24,Devam Ediyor,0,-1,3.73,Okuyor,0,Henüz İşe Yerleşmedi,0
+81,Elektrik Mühendisliği,Erkek,29,Devam Ediyor,0,-1,2.37,Okuyor,0,Henüz İşe Yerleşmedi,0
+82,Bilgisayar Mühendisliği,Kadın,21,Mezun,2024,82,3.04,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+83,Makine Mühendisliği,Erkek,26,Mezun,2019,100,3.48,İşe Yerleşti,6,Teknoloji,143615
+84,Kimya,Erkek,21,Mezun,2019,74,3.28,İşe Yerleşti,6,Finans,102653
+85,Tıp,Erkek,29,Mezun,2022,79,2.61,İşe Yerleşti,6,Serbest Meslek,81534
+86,Kimya,Erkek,30,Mezun,2024,80,3.58,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+87,İşletme,Kadın,20,Devam Ediyor,0,-1,2.32,Okuyor,0,Henüz İşe Yerleşmedi,0
+88,Bilgisayar Mühendisliği,Kadın,21,Mezun,2018,77,3.4,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+89,Makine Mühendisliği,Kadın,29,Mezun,2023,87,3.01,İşe Yerleşti,7,Teknoloji,81400
+90,Bilgisayar Mühendisliği,Kadın,25,Mezun,2024,71,3.43,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+91,Kimya,Kadın,20,Mezun,2019,80,2.27,İşe Yerleşti,8,Danışmanlık,85949
+92,Matematik,Kadın,30,Mezun,2021,82,2.46,İşe Yerleşti,11,Devlet Kurumu,80945
+93,Matematik,Kadın,22,Mezun,2021,79,2.59,İşe Yerleşti,9,Hukuk,100424
+94,Elektrik Mühendisliği,Kadın,20,Mezun,2020,98,3.79,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+95,Makine Mühendisliği,Erkek,23,Devam Ediyor,0,-1,3.75,Okuyor,0,Henüz İşe Yerleşmedi,0
+96,Kimya,Erkek,29,Mezun,2021,90,3.25,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+97,Tıp,Erkek,21,Mezun,2020,84,3.38,İşe Yerleşti,11,Teknoloji,105594
+98,Makine Mühendisliği,Kadın,26,Mezun,2018,71,3.75,İşe Yerleşti,5,Teknoloji,118493
+99,İktisat,Erkek,20,Mezun,2018,90,3.13,İşe Yerleşti,8,Serbest Meslek,128735
+100,Kimya,Erkek,22,Mezun,2023,89,3.38,İşe Yerleşti,11,Araştırma,143260
+101,Makine Mühendisliği,Kadın,20,Mezun,2021,79,3.88,İşe Yerleşti,7,Eğitim,135941
+102,Elektrik Mühendisliği,Erkek,28,Mezun,2023,76,3.1,İşe Yerleşti,3,Araştırma,79287
+103,Psikoloji,Erkek,27,Mezun,2021,96,2.41,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+104,İşletme,Erkek,22,Mezun,2021,79,2.64,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+105,Elektrik Mühendisliği,Kadın,26,Mezun,2018,82,2.33,İşe Yerleşti,7,Teknoloji,117289
+106,Elektrik Mühendisliği,Kadın,27,Mezun,2021,80,2.02,İşe Yerleşti,4,Devlet Kurumu,103547
+107,Elektrik Mühendisliği,Erkek,22,Mezun,2019,80,2.21,İşe Yerleşti,10,Devlet Kurumu,145836
+108,Tıp,Kadın,27,Mezun,2020,95,2.23,İşe Yerleşti,9,Sanayi,141160
+109,İktisat,Erkek,23,Mezun,2023,88,2,İşe Yerleşti,12,Teknoloji,53361
+110,İşletme,Erkek,29,Mezun,2022,83,2.18,İşe Yerleşti,7,Finans,72876
+111,İktisat,Erkek,27,Devam Ediyor,0,-1,3.59,Okuyor,0,Henüz İşe Yerleşmedi,0
+112,Matematik,Kadın,30,Devam Ediyor,0,-1,3.25,Okuyor,0,Henüz İşe Yerleşmedi,0
+113,Psikoloji,Erkek,27,Mezun,2020,83,3.84,İşe Yerleşti,5,Finans,100687
+114,Matematik,Erkek,28,Mezun,2021,91,2.14,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+115,İktisat,Kadın,30,Mezun,2020,88,2.29,İşe Yerleşti,5,Teknoloji,110241
+116,Hukuk,Erkek,25,Mezun,2021,99,3.75,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+117,Matematik,Kadın,21,Devam Ediyor,0,-1,3.89,Okuyor,0,Henüz İşe Yerleşmedi,0
+118,Psikoloji,Kadın,25,Devam Ediyor,0,-1,2.42,Okuyor,0,Henüz İşe Yerleşmedi,0
+119,Psikoloji,Erkek,22,Mezun,2018,83,2.31,İşe Yerleşti,5,Sanayi,126176
+120,Makine Mühendisliği,Erkek,20,Devam Ediyor,0,-1,3.67,Okuyor,0,Henüz İşe Yerleşmedi,0
+121,Makine Mühendisliği,Erkek,29,Mezun,2023,77,2.54,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+122,Makine Mühendisliği,Erkek,29,Mezun,2022,74,3.57,İşe Yerleşti,6,Serbest Meslek,101390
+123,İşletme,Kadın,29,Devam Ediyor,0,-1,2.49,Okuyor,0,Henüz İşe Yerleşmedi,0
+124,Bilgisayar Mühendisliği,Kadın,27,Mezun,2021,70,3.43,İşe Yerleşti,3,Teknoloji,50519
+125,Makine Mühendisliği,Kadın,22,Mezun,2022,95,2.15,İşe Yerleşti,7,Teknoloji,66087
+126,Hukuk,Kadın,21,Mezun,2018,74,2.72,İşe Yerleşti,11,Devlet Kurumu,113136
+127,Kimya,Kadın,30,Mezun,2021,71,3.86,İşe Yerleşti,6,Eğitim,147626
+128,Matematik,Erkek,30,Mezun,2024,72,3.5,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+129,Matematik,Erkek,24,Mezun,2023,91,3.35,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+130,Matematik,Erkek,20,Mezun,2024,87,3.85,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+131,Tıp,Erkek,24,Mezun,2022,85,2.04,İşe Yerleşti,1,Araştırma,144100
+132,Kimya,Erkek,27,Mezun,2018,90,3.36,İşe Yerleşti,7,Sanayi,64138
+133,Bilgisayar Mühendisliği,Erkek,26,Mezun,2024,92,2.82,İşe Yerleşti,2,Serbest Meslek,52875
+134,Matematik,Erkek,28,Mezun,2022,78,3.64,İşe Yerleşti,2,Finans,63836
+135,İktisat,Kadın,29,Mezun,2020,99,3.54,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+136,Psikoloji,Kadın,28,Mezun,2023,89,2.31,İşe Yerleşti,3,Devlet Kurumu,87235
+137,Tıp,Kadın,23,Mezun,2019,81,3.92,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+138,Kimya,Kadın,23,Devam Ediyor,0,-1,3.93,Okuyor,0,Henüz İşe Yerleşmedi,0
+139,Hukuk,Erkek,27,Mezun,2024,88,3.64,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+140,Psikoloji,Erkek,21,Mezun,2020,99,3.54,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+141,Tıp,Erkek,23,Mezun,2024,78,2.11,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+142,Elektrik Mühendisliği,Erkek,25,Mezun,2024,100,2.81,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+143,Matematik,Kadın,29,Mezun,2022,81,2.46,İşe Yerleşti,10,Eğitim,72910
+144,Makine Mühendisliği,Kadın,21,Devam Ediyor,0,-1,2.56,Okuyor,0,Henüz İşe Yerleşmedi,0
+145,Bilgisayar Mühendisliği,Kadın,22,Mezun,2024,93,3.18,İşe Yerleşti,11,Finans,146346
+146,Makine Mühendisliği,Kadın,21,Devam Ediyor,0,-1,2.14,Okuyor,0,Henüz İşe Yerleşmedi,0
+147,Kimya,Erkek,28,Mezun,2018,71,2.67,İşe Yerleşti,10,Hukuk,107479
+148,Hukuk,Erkek,26,Devam Ediyor,0,-1,2.98,Okuyor,0,Henüz İşe Yerleşmedi,0
+149,Kimya,Kadın,25,Mezun,2024,94,3.22,İşe Yerleşti,6,Araştırma,100162
+150,Hukuk,Kadın,30,Devam Ediyor,0,-1,2.65,Okuyor,0,Henüz İşe Yerleşmedi,0
+151,İktisat,Kadın,25,Mezun,2019,80,3.26,İşe Yerleşti,4,Hukuk,54255
+152,İktisat,Erkek,29,Mezun,2020,90,2.48,İşe Yerleşti,11,Devlet Kurumu,115415
+153,İşletme,Erkek,20,Devam Ediyor,0,-1,2.83,Okuyor,0,Henüz İşe Yerleşmedi,0
+154,Hukuk,Erkek,30,Mezun,2018,85,2.89,İşe Yerleşti,11,Danışmanlık,80222
+155,Hukuk,Erkek,29,Mezun,2023,85,3.82,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+156,Matematik,Erkek,28,Mezun,2018,78,3.93,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+157,Kimya,Erkek,27,Mezun,2024,88,2.76,İşe Yerleşti,9,Finans,93680
+158,Hukuk,Kadın,25,Mezun,2020,82,3.69,İşe Yerleşti,2,Sanayi,147050
+159,Hukuk,Erkek,22,Devam Ediyor,0,-1,3.77,Okuyor,0,Henüz İşe Yerleşmedi,0
+160,Bilgisayar Mühendisliği,Erkek,26,Mezun,2022,78,3.43,İşe Yerleşti,6,Hukuk,117187
+161,İşletme,Kadın,27,Mezun,2023,92,3.38,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+162,Elektrik Mühendisliği,Kadın,29,Mezun,2023,95,3.82,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+163,İşletme,Kadın,20,Mezun,2018,89,2.28,İşe Yerleşti,9,Araştırma,92853
+164,Matematik,Kadın,30,Mezun,2024,99,3.21,İşe Yerleşti,11,Devlet Kurumu,100315
+165,Hukuk,Erkek,28,Mezun,2022,70,3.36,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+166,Tıp,Erkek,28,Mezun,2024,99,3.2,İşe Yerleşti,7,Hukuk,95160
+167,Makine Mühendisliği,Erkek,30,Devam Ediyor,0,-1,3.3,Okuyor,0,Henüz İşe Yerleşmedi,0
+168,Tıp,Erkek,28,Devam Ediyor,0,-1,2.46,Okuyor,0,Henüz İşe Yerleşmedi,0
+169,Bilgisayar Mühendisliği,Erkek,26,Devam Ediyor,0,-1,2.41,Okuyor,0,Henüz İşe Yerleşmedi,0
+170,Tıp,Kadın,22,Mezun,2024,70,3.81,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+171,Psikoloji,Kadın,25,Mezun,2023,74,3.5,İşe Yerleşti,1,Serbest Meslek,74235
+172,Bilgisayar Mühendisliği,Kadın,28,Mezun,2019,98,3.03,İşe Yerleşti,12,Sağlık,136501
+173,Matematik,Erkek,27,Mezun,2021,79,2.47,İşe Yerleşti,6,Araştırma,127343
+174,Bilgisayar Mühendisliği,Kadın,25,Mezun,2024,80,3.65,İşe Yerleşti,3,Devlet Kurumu,124986
+175,Hukuk,Erkek,23,Devam Ediyor,0,-1,2.59,Okuyor,0,Henüz İşe Yerleşmedi,0
+176,Hukuk,Erkek,22,Mezun,2021,84,3.82,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+177,Kimya,Kadın,27,Mezun,2019,97,2.47,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+178,Kimya,Kadın,22,Mezun,2023,99,2.61,İşe Yerleşti,4,Serbest Meslek,69167
+179,Kimya,Kadın,27,Devam Ediyor,0,-1,2.45,Okuyor,0,Henüz İşe Yerleşmedi,0
+180,İktisat,Erkek,20,Mezun,2023,72,3.32,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+181,İktisat,Kadın,21,Mezun,2024,86,3.47,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+182,İşletme,Kadın,29,Mezun,2022,82,2.55,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+183,Makine Mühendisliği,Erkek,28,Mezun,2018,87,3.16,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+184,Bilgisayar Mühendisliği,Kadın,20,Mezun,2020,75,3.33,İşe Yerleşti,12,Eğitim,138459
+185,Matematik,Kadın,24,Mezun,2020,72,3.65,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+186,Tıp,Kadın,23,Devam Ediyor,0,-1,3.53,Okuyor,0,Henüz İşe Yerleşmedi,0
+187,Hukuk,Erkek,22,Mezun,2021,78,3.52,İşe Yerleşti,8,Finans,58247
+188,İşletme,Erkek,20,Mezun,2024,93,3.36,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+189,İşletme,Kadın,27,Mezun,2023,80,3.19,İşe Yerleşti,10,Serbest Meslek,97778
+190,Tıp,Kadın,26,Mezun,2020,71,2.87,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+191,İktisat,Kadın,22,Mezun,2024,78,3.84,İşe Yerleşti,10,Sanayi,90980
+192,Hukuk,Kadın,21,Devam Ediyor,0,-1,2.74,Okuyor,0,Henüz İşe Yerleşmedi,0
+193,Bilgisayar Mühendisliği,Kadın,23,Mezun,2023,85,4,İşe Yerleşti,9,Sağlık,120538
+194,Kimya,Erkek,24,Mezun,2019,79,2.62,İşe Yerleşti,5,Finans,74109
+195,Kimya,Kadın,26,Mezun,2023,98,2.45,İşe Yerleşti,7,Araştırma,122014
+196,Matematik,Erkek,20,Mezun,2022,98,3.79,İşe Yerleşti,8,Finans,92541
+197,Matematik,Kadın,28,Mezun,2019,83,2.06,İşe Yerleşti,7,Teknoloji,124889
+198,Hukuk,Erkek,24,Mezun,2021,80,2.75,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+199,Kimya,Erkek,23,Devam Ediyor,0,-1,2.93,Okuyor,0,Henüz İşe Yerleşmedi,0
+200,Hukuk,Kadın,26,Mezun,2021,92,2.84,İşe Yerleşti,7,Danışmanlık,89391
+201,İktisat,Kadın,25,Mezun,2021,87,2.74,İşe Yerleşti,9,Eğitim,79768
+202,Matematik,Erkek,25,Mezun,2018,70,2.74,İşe Yerleşti,7,Finans,62051
+203,Hukuk,Kadın,23,Devam Ediyor,0,-1,2.46,Okuyor,0,Henüz İşe Yerleşmedi,0
+204,Tıp,Kadın,27,Mezun,2020,80,2.51,İşe Yerleşti,6,Serbest Meslek,89111
+205,Psikoloji,Erkek,27,Mezun,2022,98,3.63,İşe Yerleşti,11,Hukuk,115546
+206,Psikoloji,Kadın,22,Mezun,2024,78,2.45,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+207,Tıp,Kadın,23,Mezun,2023,94,3.68,İşe Yerleşti,1,Devlet Kurumu,140848
+208,Bilgisayar Mühendisliği,Kadın,26,Mezun,2020,92,2.22,İşe Yerleşti,7,Finans,105593
+209,Kimya,Erkek,30,Devam Ediyor,0,-1,3.12,Okuyor,0,Henüz İşe Yerleşmedi,0
+210,Tıp,Erkek,20,Mezun,2020,74,3.51,İşe Yerleşti,6,Finans,119641
+211,Bilgisayar Mühendisliği,Erkek,28,Mezun,2018,88,3.33,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+212,Matematik,Kadın,20,Mezun,2023,100,3.54,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+213,Makine Mühendisliği,Kadın,28,Mezun,2020,94,3.91,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+214,Bilgisayar Mühendisliği,Erkek,21,Devam Ediyor,0,-1,3.36,Okuyor,0,Henüz İşe Yerleşmedi,0
+215,Matematik,Erkek,22,Mezun,2023,76,2.94,İşe Yerleşti,1,Serbest Meslek,104874
+216,Matematik,Kadın,29,Devam Ediyor,0,-1,2.57,Okuyor,0,Henüz İşe Yerleşmedi,0
+217,İktisat,Kadın,27,Mezun,2021,71,2.54,İşe Yerleşti,4,Hukuk,90865
+218,Hukuk,Erkek,29,Mezun,2023,85,2.72,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+219,Tıp,Kadın,26,Mezun,2022,87,2.88,İşe Yerleşti,9,Danışmanlık,99650
+220,Psikoloji,Erkek,23,Mezun,2021,81,3.19,İşe Yerleşti,3,Sağlık,96864
+221,İşletme,Erkek,22,Mezun,2018,72,3.86,İşe Yerleşti,1,Teknoloji,110534
+222,Bilgisayar Mühendisliği,Erkek,30,Mezun,2018,76,2.95,İşe Yerleşti,6,Danışmanlık,138926
+223,Psikoloji,Erkek,30,Mezun,2019,77,3.51,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+224,Kimya,Kadın,30,Mezun,2024,79,2.24,İşe Yerleşti,12,Araştırma,99951
+225,Hukuk,Erkek,27,Mezun,2018,95,3.26,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+226,Hukuk,Kadın,25,Mezun,2019,100,3.78,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+227,Kimya,Erkek,29,Mezun,2019,74,3.54,İşe Yerleşti,5,Eğitim,131780
+228,Bilgisayar Mühendisliği,Kadın,25,Mezun,2018,88,3.14,İşe Yerleşti,12,Hukuk,132319
+229,İktisat,Kadın,27,Mezun,2019,94,2.91,İşe Yerleşti,3,Serbest Meslek,66858
+230,Tıp,Kadın,27,Mezun,2023,96,2.03,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+231,Hukuk,Erkek,30,Mezun,2020,74,2.2,İşe Yerleşti,5,Teknoloji,65906
+232,Psikoloji,Erkek,28,Mezun,2018,86,3.98,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+233,İşletme,Erkek,26,Mezun,2019,72,2.71,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+234,İşletme,Kadın,21,Mezun,2024,94,2.55,İşe Yerleşti,10,Hukuk,62982
+235,Hukuk,Erkek,23,Mezun,2024,71,3.2,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+236,Matematik,Kadın,26,Mezun,2019,79,2.71,İşe Yerleşti,4,Danışmanlık,83352
+237,Psikoloji,Erkek,30,Mezun,2022,96,3.16,İşe Yerleşti,5,Eğitim,97357
+238,Psikoloji,Erkek,27,Devam Ediyor,0,-1,3.78,Okuyor,0,Henüz İşe Yerleşmedi,0
+239,İktisat,Kadın,25,Devam Ediyor,0,-1,2.62,Okuyor,0,Henüz İşe Yerleşmedi,0
+240,İşletme,Erkek,25,Mezun,2021,99,2.21,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+241,Matematik,Erkek,29,Mezun,2019,86,2.67,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+242,Elektrik Mühendisliği,Kadın,22,Devam Ediyor,0,-1,3.28,Okuyor,0,Henüz İşe Yerleşmedi,0
+243,Tıp,Erkek,20,Devam Ediyor,0,-1,2.23,Okuyor,0,Henüz İşe Yerleşmedi,0
+244,Tıp,Erkek,27,Mezun,2020,91,3.53,İşe Yerleşti,2,Sanayi,51265
+245,İktisat,Kadın,23,Mezun,2021,83,2.25,İşe Yerleşti,2,Eğitim,121526
+246,İktisat,Kadın,21,Mezun,2024,91,3.57,İşe Yerleşti,11,Hukuk,66764
+247,Elektrik Mühendisliği,Erkek,21,Mezun,2021,89,2.33,İşe Yerleşti,1,Sağlık,148858
+248,İktisat,Erkek,27,Mezun,2022,79,2.45,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+249,Psikoloji,Erkek,30,Mezun,2019,82,3.48,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+250,Tıp,Kadın,25,Mezun,2019,91,3.55,İşe Yerleşti,2,Danışmanlık,133999
+251,Hukuk,Erkek,23,Devam Ediyor,0,-1,2.08,Okuyor,0,Henüz İşe Yerleşmedi,0
+252,Psikoloji,Kadın,27,Mezun,2023,98,2.55,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+253,Kimya,Erkek,25,Mezun,2020,70,2.85,İşe Yerleşti,5,Hukuk,60586
+254,Bilgisayar Mühendisliği,Erkek,27,Mezun,2018,99,3.86,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+255,Hukuk,Kadın,23,Devam Ediyor,0,-1,2.53,Okuyor,0,Henüz İşe Yerleşmedi,0
+256,Kimya,Kadın,25,Devam Ediyor,0,-1,3.28,Okuyor,0,Henüz İşe Yerleşmedi,0
+257,Hukuk,Erkek,25,Mezun,2019,100,3.93,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+258,İşletme,Erkek,21,Mezun,2023,92,3.71,İşe Yerleşti,1,Serbest Meslek,85862
+259,İktisat,Erkek,21,Devam Ediyor,0,-1,3.95,Okuyor,0,Henüz İşe Yerleşmedi,0
+260,Matematik,Erkek,24,Mezun,2019,94,2.26,İşe Yerleşti,12,Teknoloji,59310
+261,Kimya,Kadın,20,Mezun,2022,70,3.09,İşe Yerleşti,12,Devlet Kurumu,78041
+262,Elektrik Mühendisliği,Erkek,20,Mezun,2022,92,2.45,İşe Yerleşti,9,Devlet Kurumu,77719
+263,Makine Mühendisliği,Kadın,21,Mezun,2023,79,3.7,İşe Yerleşti,4,Hukuk,89267
+264,Psikoloji,Kadın,28,Mezun,2018,83,2.68,İşe Yerleşti,10,Danışmanlık,74478
+265,Elektrik Mühendisliği,Erkek,22,Mezun,2020,95,3.66,İşe Yerleşti,8,Hukuk,80216
+266,Tıp,Kadın,26,Devam Ediyor,0,-1,3.63,Okuyor,0,Henüz İşe Yerleşmedi,0
+267,Tıp,Erkek,28,Mezun,2021,84,2.61,İşe Yerleşti,7,Teknoloji,130178
+268,Tıp,Erkek,27,Mezun,2024,88,3.28,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+269,Hukuk,Erkek,27,Devam Ediyor,0,-1,3.33,Okuyor,0,Henüz İşe Yerleşmedi,0
+270,Kimya,Kadın,22,Devam Ediyor,0,-1,3.08,Okuyor,0,Henüz İşe Yerleşmedi,0
+271,Psikoloji,Erkek,23,Mezun,2018,81,2.56,İşe Yerleşti,9,Araştırma,149081
+272,İşletme,Kadın,24,Mezun,2023,86,2.05,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+273,Tıp,Erkek,30,Devam Ediyor,0,-1,3.45,Okuyor,0,Henüz İşe Yerleşmedi,0
+274,Bilgisayar Mühendisliği,Kadın,25,Mezun,2019,77,3.37,İşe Yerleşti,11,Danışmanlık,98141
+275,Bilgisayar Mühendisliği,Erkek,22,Mezun,2024,78,2.06,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+276,Kimya,Erkek,25,Mezun,2019,93,2.52,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+277,Psikoloji,Kadın,28,Mezun,2023,85,3.05,İşe Yerleşti,1,Eğitim,98012
+278,Tıp,Kadın,21,Mezun,2023,86,2.24,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+279,İşletme,Kadın,20,Mezun,2020,80,3.4,İşe Yerleşti,10,Sanayi,77525
+280,Bilgisayar Mühendisliği,Erkek,28,Mezun,2024,82,3.54,İşe Yerleşti,7,Danışmanlık,70550
+281,Tıp,Erkek,25,Mezun,2021,79,3.99,İşe Yerleşti,2,Hukuk,51103
+282,Bilgisayar Mühendisliği,Kadın,23,Devam Ediyor,0,-1,2.33,Okuyor,0,Henüz İşe Yerleşmedi,0
+283,Kimya,Kadın,27,Mezun,2021,79,3.16,İşe Yerleşti,10,Serbest Meslek,104869
+284,Bilgisayar Mühendisliği,Kadın,28,Mezun,2019,90,2.43,İşe Yerleşti,8,Teknoloji,79205
+285,Tıp,Erkek,27,Mezun,2024,100,2.7,İşe Yerleşti,3,Serbest Meslek,90727
+286,Elektrik Mühendisliği,Erkek,30,Mezun,2019,100,3.81,İşe Yerleşti,9,Eğitim,112908
+287,Tıp,Erkek,21,Mezun,2023,83,2.83,İşe Yerleşti,2,Sağlık,115359
+288,Matematik,Erkek,25,Mezun,2018,100,3.31,İşe Yerleşti,7,Finans,72249
+289,Tıp,Kadın,22,Devam Ediyor,0,-1,2.33,Okuyor,0,Henüz İşe Yerleşmedi,0
+290,Kimya,Kadın,27,Mezun,2021,87,3.21,İşe Yerleşti,6,Devlet Kurumu,112436
+291,Kimya,Erkek,29,Devam Ediyor,0,-1,2.83,Okuyor,0,Henüz İşe Yerleşmedi,0
+292,İşletme,Kadın,28,Mezun,2020,76,2.77,İşe Yerleşti,12,Danışmanlık,64623
+293,Matematik,Kadın,29,Mezun,2021,96,3.1,İşe Yerleşti,2,Danışmanlık,57895
+294,İşletme,Erkek,28,Mezun,2024,90,3.68,İşe Yerleşti,6,Sağlık,89317
+295,Kimya,Kadın,22,Mezun,2024,77,2.55,İşe Yerleşti,1,Teknoloji,118548
+296,Psikoloji,Kadın,24,Mezun,2019,85,2.14,İşe Yerleşti,4,Devlet Kurumu,89367
+297,Kimya,Kadın,26,Mezun,2023,82,2.04,İşe Yerleşti,7,Araştırma,85670
+298,Matematik,Kadın,26,Mezun,2023,74,3.88,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+299,Tıp,Erkek,26,Mezun,2019,82,2.82,İşe Yerleşti,5,Teknoloji,109184
+300,Elektrik Mühendisliği,Erkek,22,Devam Ediyor,0,-1,2.09,Okuyor,0,Henüz İşe Yerleşmedi,0
+301,Kimya,Kadın,24,Mezun,2024,71,3.68,İşe Yerleşti,11,Araştırma,144531
+302,Hukuk,Erkek,25,Devam Ediyor,0,-1,3.58,Okuyor,0,Henüz İşe Yerleşmedi,0
+303,İktisat,Erkek,30,Mezun,2018,87,3.75,İşe Yerleşti,5,Sanayi,122235
+304,Matematik,Kadın,21,Mezun,2018,93,3.82,İşe Yerleşti,4,Serbest Meslek,73335
+305,Psikoloji,Erkek,29,Mezun,2024,75,3.93,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+306,Tıp,Erkek,26,Mezun,2021,94,3.65,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+307,Tıp,Erkek,21,Mezun,2018,93,2.77,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+308,Kimya,Kadın,23,Mezun,2024,85,2.84,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+309,Elektrik Mühendisliği,Erkek,24,Mezun,2018,91,3.7,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+310,Hukuk,Kadın,25,Mezun,2020,70,3.21,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+311,Kimya,Kadın,22,Mezun,2023,78,2.68,İşe Yerleşti,9,Araştırma,59609
+312,Bilgisayar Mühendisliği,Erkek,24,Mezun,2021,91,3.36,İşe Yerleşti,12,Hukuk,145735
+313,Matematik,Erkek,25,Mezun,2023,88,3.19,İşe Yerleşti,1,Serbest Meslek,72119
+314,Kimya,Kadın,29,Mezun,2021,80,3.18,İşe Yerleşti,8,Sağlık,129781
+315,Bilgisayar Mühendisliği,Kadın,25,Mezun,2024,83,3.74,İşe Yerleşti,10,Devlet Kurumu,63792
+316,Matematik,Kadın,27,Mezun,2023,82,2.03,İşe Yerleşti,2,Araştırma,57957
+317,Elektrik Mühendisliği,Erkek,21,Devam Ediyor,0,-1,2.32,Okuyor,0,Henüz İşe Yerleşmedi,0
+318,İktisat,Erkek,27,Mezun,2020,99,3.38,İşe Yerleşti,7,Serbest Meslek,110946
+319,Matematik,Erkek,22,Devam Ediyor,0,-1,3.4,Okuyor,0,Henüz İşe Yerleşmedi,0
+320,Matematik,Erkek,26,Mezun,2019,88,3.99,İşe Yerleşti,1,Araştırma,92315
+321,Bilgisayar Mühendisliği,Erkek,21,Devam Ediyor,0,-1,2.48,Okuyor,0,Henüz İşe Yerleşmedi,0
+322,Kimya,Erkek,28,Mezun,2018,71,3.14,İşe Yerleşti,5,Araştırma,129780
+323,Makine Mühendisliği,Erkek,27,Devam Ediyor,0,-1,2.97,Okuyor,0,Henüz İşe Yerleşmedi,0
+324,Bilgisayar Mühendisliği,Erkek,30,Mezun,2018,94,3.76,İşe Yerleşti,9,Sağlık,50164
+325,Hukuk,Kadın,29,Mezun,2021,71,3.45,İşe Yerleşti,3,Hukuk,53863
+326,İşletme,Erkek,26,Mezun,2023,83,2.93,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+327,İktisat,Erkek,27,Devam Ediyor,0,-1,2.5,Okuyor,0,Henüz İşe Yerleşmedi,0
+328,Matematik,Erkek,24,Mezun,2023,97,2.64,İşe Yerleşti,4,Finans,111696
+329,Matematik,Erkek,29,Mezun,2024,93,3.77,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+330,Bilgisayar Mühendisliği,Kadın,26,Mezun,2022,86,2.77,İşe Yerleşti,8,Danışmanlık,62150
+331,İktisat,Erkek,22,Mezun,2021,90,3.1,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+332,Matematik,Kadın,24,Devam Ediyor,0,-1,3.33,Okuyor,0,Henüz İşe Yerleşmedi,0
+333,Makine Mühendisliği,Erkek,29,Mezun,2018,75,2.03,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+334,Bilgisayar Mühendisliği,Kadın,23,Mezun,2021,74,3.43,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+335,Tıp,Kadın,29,Mezun,2020,75,3.53,İşe Yerleşti,11,Sanayi,52777
+336,Tıp,Kadın,25,Mezun,2021,91,3.36,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+337,Makine Mühendisliği,Erkek,24,Mezun,2022,72,2.22,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+338,Kimya,Kadın,25,Mezun,2019,78,2.4,İşe Yerleşti,12,Sanayi,142000
+339,Elektrik Mühendisliği,Erkek,21,Mezun,2020,81,3.02,İşe Yerleşti,5,Teknoloji,52587
+340,İktisat,Erkek,20,Devam Ediyor,0,-1,3.87,Okuyor,0,Henüz İşe Yerleşmedi,0
+341,Makine Mühendisliği,Kadın,26,Mezun,2019,95,3.18,İşe Yerleşti,2,Araştırma,85414
+342,Psikoloji,Erkek,27,Mezun,2024,74,3.38,İşe Yerleşti,6,Serbest Meslek,84121
+343,Tıp,Erkek,26,Devam Ediyor,0,-1,2.75,Okuyor,0,Henüz İşe Yerleşmedi,0
+344,Elektrik Mühendisliği,Erkek,24,Mezun,2021,80,3.89,İşe Yerleşti,7,Hukuk,94844
+345,İktisat,Kadın,23,Mezun,2023,96,2.96,İşe Yerleşti,2,Devlet Kurumu,77696
+346,Matematik,Erkek,21,Devam Ediyor,0,-1,3.26,Okuyor,0,Henüz İşe Yerleşmedi,0
+347,Matematik,Erkek,23,Mezun,2019,83,2.6,İşe Yerleşti,4,Sanayi,121157
+348,İktisat,Erkek,23,Mezun,2018,94,3.57,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+349,İktisat,Erkek,23,Mezun,2022,84,3.04,İşe Yerleşti,9,Sağlık,113971
+350,Hukuk,Kadın,30,Mezun,2018,82,3.83,İşe Yerleşti,7,Eğitim,55674
+351,Kimya,Erkek,25,Mezun,2020,100,3.35,İşe Yerleşti,1,Sağlık,92087
+352,Makine Mühendisliği,Erkek,29,Mezun,2020,81,3.86,İşe Yerleşti,8,Danışmanlık,61783
+353,Makine Mühendisliği,Erkek,20,Devam Ediyor,0,-1,2.15,Okuyor,0,Henüz İşe Yerleşmedi,0
+354,İktisat,Erkek,25,Devam Ediyor,0,-1,3.11,Okuyor,0,Henüz İşe Yerleşmedi,0
+355,Tıp,Kadın,27,Mezun,2019,98,3.58,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+356,Makine Mühendisliği,Erkek,29,Mezun,2020,81,2.72,İşe Yerleşti,4,Sağlık,67827
+357,Tıp,Kadın,23,Mezun,2022,79,2.01,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+358,Bilgisayar Mühendisliği,Erkek,29,Devam Ediyor,0,-1,2.69,Okuyor,0,Henüz İşe Yerleşmedi,0
+359,Matematik,Erkek,26,Mezun,2024,78,2.46,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+360,Kimya,Erkek,28,Mezun,2018,73,2.42,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+361,Makine Mühendisliği,Kadın,28,Devam Ediyor,0,-1,3.69,Okuyor,0,Henüz İşe Yerleşmedi,0
+362,Bilgisayar Mühendisliği,Erkek,23,Mezun,2020,80,3.34,İşe Yerleşti,5,Araştırma,149521
+363,Elektrik Mühendisliği,Kadın,30,Mezun,2024,86,2.06,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+364,Hukuk,Erkek,25,Mezun,2019,79,3.79,İşe Yerleşti,6,Eğitim,104249
+365,Tıp,Kadın,21,Mezun,2020,71,3.64,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+366,Matematik,Kadın,22,Mezun,2024,74,2.71,İşe Yerleşti,5,Teknoloji,54690
+367,Hukuk,Kadın,22,Mezun,2023,93,3.01,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+368,Hukuk,Kadın,29,Devam Ediyor,0,-1,2.33,Okuyor,0,Henüz İşe Yerleşmedi,0
+369,Psikoloji,Kadın,26,Mezun,2018,70,2.01,İşe Yerleşti,8,Sanayi,122902
+370,İşletme,Kadın,23,Mezun,2021,88,3.84,İşe Yerleşti,12,Sanayi,70182
+371,Elektrik Mühendisliği,Erkek,28,Mezun,2019,94,2.5,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+372,Elektrik Mühendisliği,Kadın,27,Mezun,2023,92,3.95,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+373,Makine Mühendisliği,Erkek,24,Mezun,2018,83,2.3,İşe Yerleşti,12,Devlet Kurumu,134709
+374,İktisat,Kadın,23,Mezun,2023,84,3.98,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+375,Makine Mühendisliği,Erkek,26,Mezun,2019,96,2.95,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+376,İşletme,Erkek,23,Mezun,2022,78,3.5,İşe Yerleşti,8,Hukuk,89035
+377,Bilgisayar Mühendisliği,Kadın,24,Mezun,2019,93,2.31,İşe Yerleşti,10,Danışmanlık,92076
+378,İktisat,Kadın,25,Mezun,2023,85,2.97,İşe Yerleşti,10,Serbest Meslek,130647
+379,Elektrik Mühendisliği,Erkek,28,Mezun,2019,78,3.43,İşe Yerleşti,6,Sanayi,109349
+380,Kimya,Erkek,29,Mezun,2018,84,2.24,İşe Yerleşti,10,Eğitim,80179
+381,Matematik,Erkek,21,Mezun,2019,72,2.3,İşe Yerleşti,2,Araştırma,82882
+382,Bilgisayar Mühendisliği,Kadın,21,Mezun,2019,96,2.35,İşe Yerleşti,3,Sağlık,55594
+383,Kimya,Kadın,22,Devam Ediyor,0,-1,3.93,Okuyor,0,Henüz İşe Yerleşmedi,0
+384,Tıp,Erkek,22,Mezun,2020,70,2.84,İşe Yerleşti,9,Finans,104352
+385,Bilgisayar Mühendisliği,Erkek,25,Mezun,2024,90,2.39,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+386,Psikoloji,Erkek,21,Mezun,2021,92,2.45,İşe Yerleşti,3,Finans,123327
+387,Tıp,Kadın,29,Mezun,2022,96,2.46,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+388,Elektrik Mühendisliği,Kadın,26,Mezun,2023,84,3.76,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+389,Psikoloji,Kadın,23,Mezun,2019,93,2.27,İşe Yerleşti,7,Sanayi,67276
+390,Psikoloji,Erkek,22,Mezun,2020,75,3.72,İşe Yerleşti,9,Eğitim,111700
+391,Kimya,Erkek,27,Mezun,2019,92,2.44,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+392,Hukuk,Kadın,24,Mezun,2023,97,2.82,İşe Yerleşti,3,Devlet Kurumu,56878
+393,İktisat,Erkek,28,Devam Ediyor,0,-1,2.91,Okuyor,0,Henüz İşe Yerleşmedi,0
+394,Psikoloji,Kadın,20,Devam Ediyor,0,-1,2.68,Okuyor,0,Henüz İşe Yerleşmedi,0
+395,Bilgisayar Mühendisliği,Kadın,23,Mezun,2022,77,3.4,İşe Yerleşti,8,Araştırma,111478
+396,İktisat,Erkek,20,Mezun,2023,86,2.11,İşe Yerleşti,7,Eğitim,128095
+397,Hukuk,Kadın,23,Mezun,2023,83,3.8,İşe Yerleşti,10,Araştırma,57045
+398,Kimya,Erkek,21,Mezun,2023,98,2.82,İşe Yerleşti,7,Araştırma,57713
+399,Tıp,Kadın,21,Mezun,2018,83,3.22,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+400,Elektrik Mühendisliği,Kadın,23,Mezun,2021,73,2.15,İşe Yerleşti,1,Sağlık,141156
+401,Elektrik Mühendisliği,Kadın,25,Mezun,2018,72,3.53,İşe Yerleşti,4,Araştırma,149081
+402,Psikoloji,Kadın,27,Mezun,2021,74,2.22,İşe Yerleşti,8,Devlet Kurumu,90082
+403,Psikoloji,Kadın,30,Mezun,2018,95,3.38,İşe Yerleşti,5,Serbest Meslek,91620
+404,Makine Mühendisliği,Kadın,23,Mezun,2021,73,2.55,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+405,Matematik,Kadın,25,Mezun,2019,90,3.39,İşe Yerleşti,4,Eğitim,57756
+406,Kimya,Kadın,30,Mezun,2020,84,3.55,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+407,Elektrik Mühendisliği,Kadın,22,Mezun,2019,98,2.02,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+408,Bilgisayar Mühendisliği,Kadın,24,Mezun,2023,91,2.5,İşe Yerleşti,1,Devlet Kurumu,81292
+409,Matematik,Kadın,29,Mezun,2022,81,3.28,İşe Yerleşti,8,Eğitim,119538
+410,İktisat,Erkek,20,Mezun,2024,82,3.02,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+411,Psikoloji,Kadın,29,Mezun,2019,77,3.23,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+412,Tıp,Erkek,20,Mezun,2019,90,2.81,İşe Yerleşti,11,Devlet Kurumu,98775
+413,Tıp,Erkek,20,Mezun,2024,96,3.37,İşe Yerleşti,10,Serbest Meslek,71832
+414,İşletme,Erkek,22,Devam Ediyor,0,-1,2.75,Okuyor,0,Henüz İşe Yerleşmedi,0
+415,Tıp,Erkek,30,Mezun,2018,88,3.62,İşe Yerleşti,6,Devlet Kurumu,80090
+416,Bilgisayar Mühendisliği,Erkek,29,Mezun,2021,93,3.64,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+417,İktisat,Erkek,21,Mezun,2019,84,2.76,İşe Yerleşti,5,Danışmanlık,55789
+418,İşletme,Kadın,25,Mezun,2021,97,3.22,İşe Yerleşti,9,Araştırma,84696
+419,İşletme,Erkek,21,Mezun,2021,100,2.67,İşe Yerleşti,5,Araştırma,121816
+420,Bilgisayar Mühendisliği,Kadın,25,Mezun,2022,84,3.26,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+421,İktisat,Erkek,29,Devam Ediyor,0,-1,2.98,Okuyor,0,Henüz İşe Yerleşmedi,0
+422,Tıp,Erkek,30,Mezun,2018,74,3.14,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+423,Hukuk,Erkek,27,Mezun,2020,84,2.62,İşe Yerleşti,7,Eğitim,81469
+424,İktisat,Erkek,20,Mezun,2020,79,3.96,İşe Yerleşti,2,Sağlık,122293
+425,Matematik,Kadın,27,Mezun,2021,79,3.58,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+426,Bilgisayar Mühendisliği,Kadın,26,Mezun,2024,77,3.63,İşe Yerleşti,11,Teknoloji,143376
+427,İktisat,Erkek,20,Mezun,2019,97,2.78,İşe Yerleşti,6,Sağlık,133288
+428,İktisat,Kadın,29,Mezun,2023,83,3.68,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+429,Hukuk,Kadın,24,Mezun,2018,95,3.03,İşe Yerleşti,1,Teknoloji,145444
+430,Matematik,Kadın,24,Devam Ediyor,0,-1,2.72,Okuyor,0,Henüz İşe Yerleşmedi,0
+431,Makine Mühendisliği,Kadın,20,Mezun,2020,73,2.48,İşe Yerleşti,5,Sanayi,106950
+432,Matematik,Erkek,25,Mezun,2020,72,3.83,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+433,Tıp,Erkek,22,Mezun,2020,98,3.04,İşe Yerleşti,11,Serbest Meslek,133970
+434,Elektrik Mühendisliği,Kadın,27,Mezun,2018,99,2.25,İşe Yerleşti,8,Araştırma,55061
+435,Elektrik Mühendisliği,Kadın,28,Mezun,2022,83,2.04,İşe Yerleşti,3,Araştırma,102792
+436,Bilgisayar Mühendisliği,Kadın,21,Devam Ediyor,0,-1,3.3,Okuyor,0,Henüz İşe Yerleşmedi,0
+437,Matematik,Erkek,25,Devam Ediyor,0,-1,2.31,Okuyor,0,Henüz İşe Yerleşmedi,0
+438,Tıp,Kadın,21,Mezun,2024,81,3.09,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+439,Kimya,Kadın,23,Mezun,2018,88,2.59,İşe Yerleşti,9,Danışmanlık,116585
+440,Tıp,Erkek,23,Mezun,2018,79,2.35,İşe Yerleşti,12,Eğitim,113136
+441,Hukuk,Kadın,29,Mezun,2018,89,3.4,İşe Yerleşti,1,Devlet Kurumu,59504
+442,İşletme,Erkek,28,Mezun,2018,98,2.42,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+443,Psikoloji,Erkek,26,Devam Ediyor,0,-1,3.94,Okuyor,0,Henüz İşe Yerleşmedi,0
+444,Makine Mühendisliği,Erkek,29,Mezun,2018,89,3.62,İşe Yerleşti,6,Eğitim,136647
+445,Psikoloji,Erkek,25,Devam Ediyor,0,-1,2.36,Okuyor,0,Henüz İşe Yerleşmedi,0
+446,Tıp,Kadın,21,Mezun,2021,99,3.71,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+447,İşletme,Kadın,23,Mezun,2020,95,3.54,İşe Yerleşti,5,Sağlık,104681
+448,Bilgisayar Mühendisliği,Erkek,27,Mezun,2021,73,3.79,İşe Yerleşti,10,Hukuk,79185
+449,Hukuk,Erkek,22,Mezun,2019,89,2.92,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+450,Kimya,Erkek,23,Mezun,2019,79,3.21,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+451,Matematik,Kadın,28,Mezun,2022,79,3.31,İşe Yerleşti,9,Serbest Meslek,119934
+452,Elektrik Mühendisliği,Erkek,25,Devam Ediyor,0,-1,2.87,Okuyor,0,Henüz İşe Yerleşmedi,0
+453,Bilgisayar Mühendisliği,Erkek,27,Mezun,2018,74,3.64,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+454,Psikoloji,Kadın,28,Devam Ediyor,0,-1,2.63,Okuyor,0,Henüz İşe Yerleşmedi,0
+455,Elektrik Mühendisliği,Erkek,25,Mezun,2023,75,3.59,İşe Yerleşti,7,Sanayi,125042
+456,Tıp,Kadın,20,Devam Ediyor,0,-1,3.16,Okuyor,0,Henüz İşe Yerleşmedi,0
+457,İşletme,Erkek,22,Devam Ediyor,0,-1,3.21,Okuyor,0,Henüz İşe Yerleşmedi,0
+458,Elektrik Mühendisliği,Erkek,20,Mezun,2019,74,2.49,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+459,İktisat,Kadın,23,Mezun,2018,92,3.49,İşe Yerleşti,3,Eğitim,96420
+460,Tıp,Erkek,25,Mezun,2023,100,2.41,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+461,Kimya,Erkek,27,Mezun,2022,95,2.15,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+462,Elektrik Mühendisliği,Erkek,20,Mezun,2018,70,2.59,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+463,Bilgisayar Mühendisliği,Erkek,20,Mezun,2023,99,2.16,İşe Yerleşti,11,Araştırma,140957
+464,Matematik,Kadın,27,Mezun,2019,87,2.49,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+465,Elektrik Mühendisliği,Erkek,25,Mezun,2022,73,2.48,İşe Yerleşti,11,Devlet Kurumu,83279
+466,İşletme,Kadın,29,Mezun,2020,77,3.66,İşe Yerleşti,12,Araştırma,84236
+467,İktisat,Erkek,27,Mezun,2020,94,2.92,İşe Yerleşti,7,Sanayi,51383
+468,İşletme,Erkek,30,Devam Ediyor,0,-1,3.23,Okuyor,0,Henüz İşe Yerleşmedi,0
+469,Kimya,Erkek,22,Devam Ediyor,0,-1,3.86,Okuyor,0,Henüz İşe Yerleşmedi,0
+470,İşletme,Kadın,29,Mezun,2024,71,3.51,İşe Yerleşti,8,Teknoloji,121044
+471,Kimya,Kadın,23,Mezun,2020,92,3,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+472,Tıp,Erkek,20,Mezun,2018,91,3.75,İşe Yerleşti,11,Danışmanlık,137796
+473,Makine Mühendisliği,Erkek,25,Devam Ediyor,0,-1,2.42,Okuyor,0,Henüz İşe Yerleşmedi,0
+474,Psikoloji,Erkek,28,Mezun,2021,88,3.46,İşe Yerleşti,2,Hukuk,149448
+475,Hukuk,Erkek,21,Mezun,2021,90,3.37,İşe Yerleşti,11,Danışmanlık,55888
+476,Makine Mühendisliği,Erkek,29,Mezun,2022,92,3.75,İşe Yerleşti,10,Eğitim,53020
+477,Makine Mühendisliği,Erkek,29,Mezun,2023,74,3.27,İşe Yerleşti,1,Eğitim,108366
+478,Bilgisayar Mühendisliği,Erkek,21,Mezun,2021,70,4,İşe Yerleşti,4,Eğitim,110310
+479,Bilgisayar Mühendisliği,Erkek,22,Mezun,2023,79,2.83,İşe Yerleşti,6,Eğitim,102053
+480,Kimya,Kadın,20,Devam Ediyor,0,-1,3.97,Okuyor,0,Henüz İşe Yerleşmedi,0
+481,Hukuk,Kadın,27,Mezun,2020,83,3.21,İşe Yerleşti,3,Finans,106853
+482,Matematik,Erkek,29,Mezun,2022,98,3.95,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+483,Elektrik Mühendisliği,Kadın,24,Mezun,2018,100,3.12,İşe Yerleşti,5,Hukuk,130039
+484,Tıp,Kadın,25,Mezun,2018,95,2.39,İşe Yerleşti,8,Serbest Meslek,145731
+485,Psikoloji,Kadın,20,Devam Ediyor,0,-1,2,Okuyor,0,Henüz İşe Yerleşmedi,0
+486,Bilgisayar Mühendisliği,Erkek,28,Devam Ediyor,0,-1,3.27,Okuyor,0,Henüz İşe Yerleşmedi,0
+487,Bilgisayar Mühendisliği,Erkek,24,Mezun,2018,100,2.72,İşe Yerleşti,9,Sağlık,115553
+488,Kimya,Kadın,20,Mezun,2021,74,2.57,İşe Yerleşti,7,Serbest Meslek,94668
+489,Hukuk,Kadın,23,Mezun,2022,73,2.6,İşe Yerleşti,11,Danışmanlık,104233
+490,Matematik,Erkek,30,Mezun,2024,97,3.2,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+491,Elektrik Mühendisliği,Kadın,28,Devam Ediyor,0,-1,2.56,Okuyor,0,Henüz İşe Yerleşmedi,0
+492,Hukuk,Kadın,30,Mezun,2018,83,3.95,İşe Yerleşti,7,Araştırma,139332
+493,Kimya,Kadın,23,Mezun,2023,98,3.51,İşe Yerleşti,1,Araştırma,64211
+494,Psikoloji,Erkek,28,Mezun,2023,95,2.91,İşe Yerleşti,12,Devlet Kurumu,98089
+495,Psikoloji,Erkek,26,Mezun,2022,85,2.65,İşe Yerleşti,1,Hukuk,144793
+496,Kimya,Erkek,26,Mezun,2024,74,3.76,İşe Yerleşmedi,0,Henüz İşe Yerleşmedi,0
+497,Matematik,Kadın,21,Mezun,2019,83,2.26,İşe Yerleşti,7,Sağlık,118239
+498,Bilgisayar Mühendisliği,Kadın,24,Devam Ediyor,0,-1,3.01,Okuyor,0,Henüz İşe Yerleşmedi,0
+499,Makine Mühendisliği,Erkek,23,Mezun,2022,87,2.64,İşe Yerleşti,10,Devlet Kurumu,82728
+500,İşletme,Kadın,23,Devam Ediyor,0,-1,3.25,Okuyor,0,Henüz İşe Yerleşmedi,0

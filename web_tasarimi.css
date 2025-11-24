@@ -1,0 +1,249 @@
+/* ===========================
+    Web Tasarım Hero Stili
+=========================== */
+.web-design-hero {
+  background-color: #a0cdd1;
+  position: relative;
+  min-height: 42vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Animasyonlu arka plan */
+.web-design-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #006064 0%, #00838f 100%);
+  opacity: 0.5;
+  animation: wave 30s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.web-design-hero .hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.web-design-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.web-design-hero p {
+  font-size: 1.5rem;
+  max-width: 700px;
+}
+
+/* ===========================
+    Projeler Galerisi
+=========================== */
+.portfolio-gallery {
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1.5rem;
+}
+
+.project-info h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.project-info p {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.project-tags span {
+  background-color: var(--light-bg);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+.project-link {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0 auto;
+}
+
+.project-link:hover {
+  background-color: var(--primary-color);
+}
+
+/* ===========================
+    Teknolojiler Bölümü
+=========================== */
+.technologies {
+  padding: 4rem 2rem;
+  background-color: var(--light-bg);
+}
+
+.technologies h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tech-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.tech-item i {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.tech-item span {
+  display: block;
+  color: var(--text-color);
+}
+
+#iletisim {
+  background-color: white;
+}
+
+#iletisim .contact-form input,
+#iletisim .contact-form textarea {
+  border: 1px solid var(--secondary-color);
+}
+/* ===========================
+    TABLET
+=========================== */
+@media (min-width: 768px) {
+  .web-design-hero h1 {
+    font-size: 3rem;
+  }
+
+  .web-design-hero p {
+    font-size: 1.7rem;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: 1fr;
+  }
+  .project-card img {
+    height: 400px;
+  }
+  .project-info h3 {
+    font-size: 2rem;
+  }
+  .project-info p {
+    font-size: 1.4rem;
+  }
+  .project-tags span {
+    font-size: 1.5rem;
+  }
+  .project-link {
+    padding: 20px 30px;
+    font-size: 1.3rem;
+  }
+  .technologies h2 {
+    font-size: 2rem;
+  }
+  .tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tech-item {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .web-design-hero {
+    max-height: 50vw;
+  }
+    .project-card img {
+    height: 200px;
+  }
+    .project-info h3 {
+    font-size: 1.5rem;
+  }
+  .project-info p {
+    font-size: 1rem;
+  }
+  .project-tags span {
+    font-size: 1rem;
+  }
+  .project-link {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .portfolio-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+    .tech-item i {
+    font-size: 2.5rem;
+  }
+    .tech-item {
+    font-size: 1.2rem;
+  }
+}

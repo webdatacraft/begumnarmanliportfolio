@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Begüm Narmanlı - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="web-app-manifest-192x192.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#1C2A3A" />
+
+    <meta name="theme-color" content="#1C2A3A" />
+  </head>
+  <body>
+    <!-- Navigasyon -->
+    <nav>
+      <div class="logo">
+        <img src="logom.jpeg" alt="Begüm NARMANLI Logo" />
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="web_tasarimi.html">WEB TASARIM</a></li>
+        <li><a href="veri_analizi.html">VERİ ANALİZİ</a></li>
+        <li><a href="power_bi.html">POWER BI</a></li>
+        <li><a href="#iletisim">İLETİŞİM</a></li>
+      </ul>
+    </nav>
+
+    <!-- Ana Sayfa -->
+    <section class="hero" id="anasayfa">
+      <div class="hero-content">
+        <div class="profile-image">
+          <img src="images/logo_2.webp" alt="Begüm Narmanlı" />
+        </div>
+        <h1>Begüm Narmanlı</h1>
+        <h2>Web Tasarımı & Veri Analizi</h2>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/begumnarmanli/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Yetenekler -->
+    <section class="skills">
+      <div class="skill-container">
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Tasarım</h3>
+          <p>Modern ve kullanıcı dostu web siteleri tasarlıyorum.</p>
+          <a href="web_tasarimi.html" class="skill-link">Projeleri Gör</a>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Veri Analizi</h3>
+          <p>Verilerinizi anlamlı içgörülere dönüştürüyorum.</p>
+          <a href="veri_analizi.html" class="skill-link">Projeleri Gör</a>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-chart-bar"></i>
+          <h3>Power BI</h3>
+          <p>Etkileyici ve interaktif dashboard'lar oluşturuyorum.</p>
+          <a href="power_bi.html" class="skill-link">Projeleri Gör</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section class="contact" id="iletisim">
+      <h2>İLETİŞİM</h2>
+      <div class="contact-form">
+        <form id="contact-form" action="submit_form.php" method="POST">
+          <input type="text" name="name" placeholder="Adınız" required />
+          <input type="email" name="email" placeholder="E-posta" required />
+          <textarea name="message" placeholder="Mesajınız" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Begüm Narmanlı tarafından tasarlanmıştır. Tüm hakları
+        saklıdır.
+      </p>
+    </footer>
+    <button id="scrollToTopBtn" title="Sayfa Başına Dön">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>

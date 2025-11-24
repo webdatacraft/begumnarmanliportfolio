@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veri Analizi - Begüm Narmanlı</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="veri_analizi.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="web-app-manifest-192x192.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#1C2A3A" />
+
+    <meta name="theme-color" content="#1C2A3A" />
+  </head>
+  <body>
+    <!-- Navigasyon -->
+    <nav>
+      <div class="logo">
+        <img src="logom.jpeg" alt="Begüm NARMANLI Logo" />
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">ANASAYFA</a></li>
+        <li><a href="web_tasarimi.html">WEB TASARIM</a></li>
+        <li><a href="veri_analizi.html">VERİ ANALİZİ</a></li>
+        <li><a href="power_bi.html">POWER BI</a></li>
+        <li><a href="#iletisim-veri-analizi">İLETİŞİM</a></li>
+      </ul>
+    </nav>
+
+    <!-- Veri Analizi Hero Bölümü -->
+    <section class="page-hero data-analysis-hero">
+      <div class="hero-content">
+        <h1>Veri Analizi Projeleri</h1>
+        <p>Verilerden değer yaratan çözümler</p>
+      </div>
+    </section>
+
+    <!-- Analiz Projeleri -->
+    <!-- Satış Analizi Proje Kartı -->
+    <section class="portfolio-gallery">
+      <div class="project-card">
+        <div class="graph-container">
+          <img src="veri_analizi_python/gardırop.webp" alt="Satış Analizi" />
+          <p class="project-aciklama">
+            Perakende sektörü için kapsamlı satış tahminleme ve trend analizi
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>Satış Trend Analizi</h3>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+          </div>
+          <!-- Buton id ve class adını güncelledik -->
+          <a href="#" id="viewSalesTrendDetailsBtn" class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: Satış Trend Analizi -->
+      <div id="salesTrendModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeSalesTrendModal">&times;</span>
+          <h2>Satış Trend Analizi</h2>
+          <div class="graphs">
+            <img
+              src="veri_analizi_python/grafik1.png"
+              alt="Satış Trend Grafik 1"
+            />
+            <p>
+              Bu grafik, Gardırop mağazasının zaman içindeki toplam satışlarını
+              göstermektedir.
+            </p>
+            <p>
+              Veriler, tarih bazında toplam satışların nasıl değiştiğini
+              yansıtır.
+            </p>
+            <img
+              src="veri_analizi_python/grafik2.png"
+              alt="Satış Trend Grafik 2"
+            />
+            <p>
+              Bu grafik, Gardırop mağazasının gerçek satışları ile model
+              tarafından tahmin edilen satışları karşılaştırmaktadır.
+            </p>
+            <p>
+              Grafik, modelin ne kadar doğru tahminler yaptığına dair görsel bir
+              karşılaştırma sunar.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Müşteri Segmentasyonu Analizi Proje Kartı -->
+
+      <div class="project-card">
+        <div class="graph-container">
+          <img
+            src="veri_analizi_python/musteri_segmentasyonu/teknoloji.webp"
+            alt="Müşteri Segmentasyonu"
+          />
+          <p class="project-aciklama">
+            Perakende sektörü için RFM analizi ile müşteri segmentasyonu.
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>Müşteri Segmentasyonu</h3>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+          </div>
+          <!-- Buton id ve class adını güncelledik -->
+          <a
+            href="#"
+            id="viewCustomerSegmentationDetailsBtn"
+            class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: Müşteri Segmentasyonu -->
+      <div id="customerSegmentationModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeCustomerSegmentationModal">&times;</span>
+          <h2>Müşteri Segmentasyonu</h2>
+          <div class="graphs">
+            <!-- Grafik 1 -->
+            <img
+              src="veri_analizi_python/musteri_segmentasyonu/recency_frequency_segment.png"
+              alt="Müşteri Segmentasyonu Grafik 1"
+            />
+            <p>
+              Bu grafik, müşterilerin alışveriş sıklığı (Frequency) ile en son
+              alışveriş yaptıkları gün sayısı (Recency) arasındaki ilişkiyi ve
+              bu iki değişken üzerinden yapılan segmentasyonu göstermektedir.
+            </p>
+            <p>
+              Grafikte, her bir nokta bir müşteriyi temsil eder ve renkler,
+              müşterilerin hangi segmente ait olduğunu belirtir.
+            </p>
+            <p>
+              <strong>Recency:</strong> Düşük recency değeri, müşterinin yakın
+              zamanda alışveriş yaptığını gösterir.
+            </p>
+            <p>
+              Yüksek recency değeri ise müşterinin uzun süredir alışveriş
+              yapmadığını gösterir.
+            </p>
+            <p>
+              <strong>Frequency:</strong> Yüksek frequency değeri, müşterinin
+              sık alışveriş yaptığını gösterir.
+            </p>
+            <p>
+              Grafikte, farklı segmentler arasında belirgin bir ayrım
+              gözlemlenebilir.
+            </p>
+            <p>
+              Örneğin, sık alışveriş yapan ve yakın zamanda alışveriş yapmış
+              müşteriler, genellikle sadık müşteriler olarak
+              değerlendirilebilir. Bu tür müşteriler, müşteri sadakati
+              programları veya özel teklifler için hedeflenebilir.
+            </p>
+
+            <!-- Grafik 2 -->
+            <img
+              src="veri_analizi_python/musteri_segmentasyonu/recency_monetary_segment.png"
+              alt="Müşteri Segmentasyonu Grafik 2"
+            />
+            <p>
+              Bu grafik, müşterilerin toplam harcama miktarları (Monetary) ile
+              en son alışveriş yaptıkları gün sayısı (Recency) arasındaki
+              ilişkiyi ve bu iki değişken üzerinden yapılan segmentasyonu
+              göstermektedir.
+            </p>
+            <p>
+              <strong>Monetary:</strong> Yüksek monetary değeri, müşterinin
+              toplamda daha fazla harcama yaptığını gösterir.
+            </p>
+            <p>
+              Grafikte, farklı segmentler arasında harcama alışkanlıklarına göre
+              belirgin bir ayrım gözlemlenebilir.
+            </p>
+            <p>
+              Örneğin, yüksek harcama yapan ve yakın zamanda alışveriş yapmış
+              müşteriler, işletme için yüksek değerli müşteriler olarak kabul
+              edilebilir.
+            </p>
+            <p>
+              Bu müşteriler, çapraz satış veya yukarı satış stratejileri için
+              hedeflenebilir.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sosyal Medya Duygu Analizi Proje Kartı -->
+      <div class="project-card" id="duyguAnaliziProjectCard">
+        <div class="graph-container">
+          <img
+            src="veri_analizi_python/duygu_analizi/duygu_analizi.webp"
+            alt="Duygu Analizi"
+          />
+          <p class="project-aciklama">
+            NLP teknikleri ile sosyal medya yorumlarının analizi
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>Sosyal Medya Duygu Analizi</h3>
+          <div class="project-tags">
+            <span>NLTK</span>
+            <span>TextBlob</span>
+            <span>Wordcloud</span>
+          </div>
+          <a href="#" id="openDuyguAnaliziModalBtn" class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: Sosyal Medya Duygu Analizi -->
+      <div id="duyguAnaliziModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeDuyguAnaliziModal">&times;</span>
+          <h2>Sosyal Medya Duygu Analizi</h2>
+          <div class="graphs">
+            <!-- Grafik 1 -->
+            <img
+              src="veri_analizi_python/duygu_analizi/polarity_distribution.png"
+              alt="Duygu Analizi Grafik 1"
+            />
+            <p>
+              Bu histogram, yorumların duygu polaritesinin dağılımını
+              göstermektedir.
+            </p>
+            <p>
+              Polarity değeri -1 ile 1 arasında değişir; -1
+              <strong>tamamen olumsuz,</strong> 1
+              <strong>tamamen olumlu</strong> ve 0 <strong>nötr</strong> bir
+              duygu ifade eder.
+            </p>
+            <p>
+              Grafikte, çoğu yorumun <strong>pozitif</strong> bir polariteye
+              sahip olduğu görülmektedir, bu da genel olarak olumlu bir
+              kullanıcı deneyimi olduğunu gösterir.
+            </p>
+            <p>
+              Ancak, bazı yorumlar negatif polariteye sahiptir, bu da olumsuz
+              geri bildirimlerin de mevcut olduğunu belirtir.
+            </p>
+
+            <!-- Grafik 2 -->
+            <img
+              src="veri_analizi_python/duygu_analizi/subjectivity_distribution.png"
+              alt="Duygu Analizi Grafik 2"
+            />
+            <p>Bu histogram, yorumların öznelik dağılımını göstermektedir.</p>
+            <p>
+              Subjectivity değeri 0 ile 1 arasında değişir; 0
+              <strong>tamamen nesnel,</strong> 1
+              <strong>tamamen öznel</strong> bir ifadeyi temsil eder.
+            </p>
+            <p>
+              Grafikte, yorumların çoğunun öznel olduğu görülmektedir, bu da
+              kullanıcıların kişisel görüş ve duygularını ifade ettiklerini
+              gösterir.
+            </p>
+            <p>
+              Nesnel yorumlar daha az yaygındır, bu da ürün veya hizmet hakkında
+              daha az tarafsız bilgi sağlandığını gösterir.
+            </p>
+
+            <!-- Grafik 3 -->
+            <img
+              src="veri_analizi_python/duygu_analizi/polarity_subjectivity_relationship.png"
+              alt="Duygu Analizi Grafik 3"
+            />
+            <p>
+              Bu scatter plot, yorumların duygu polaritesi ile öznelik
+              arasındaki ilişkiyi göstermektedir.
+            </p>
+            <p>
+              <strong
+                >Grafikte, pozitif polariteye sahip yorumların genellikle daha
+                öznel olduğu, negatif polariteye sahip yorumların ise daha az
+                öznel olabileceği gözlemlenebilir.</strong
+              >
+            </p>
+            <p>
+              Bu durum, kullanıcıların olumlu deneyimlerini daha kişisel bir
+              dille ifade etme eğiliminde olduklarını, olumsuz deneyimlerde ise
+              daha doğrudan ve nesnel bir dil kullanabileceklerini
+              göstermektedir.
+            </p>
+            <p>
+              Bu ilişki, müşteri geri bildirimlerinin analizinde önemli bir
+              içgörü sunar.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zaman Serisi Analizi Proje Kartı -->
+      <div class="project-card">
+        <div class="graph-container">
+          <img
+            src="veri_analizi_python/zaman_serisi/zaman_serisi.webp"
+            alt="Zaman Serisi Analizi"
+          />
+          <p class="project-aciklama">
+            Finans sektöründe kredi kartı harcama trendlerinin zaman serisi
+            analizi
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>Zaman Serisi Analizi</h3>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>ARIMA</span>
+            <span>Prophet</span>
+            <span>Holt-Winters</span>
+          </div>
+          <!-- Buton id ve class adını güncelledik -->
+          <a href="#" id="viewTimeSeriesDetailsBtn" class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: Zaman Serisi Analizi -->
+      <div id="timeSeriesModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeTimeSeriesModal">&times;</span>
+          <h2>Zaman Serisi Analizi</h2>
+          <div class="graphs">
+            <img
+              src="veri_analizi_python/zaman_serisi/arima_forecast.png"
+              alt="Zaman Serisi Grafik 1"
+            />
+            <div class="analysis-report">
+              <h3>ARIMA Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> Kredi kartı harcamalarının zaman içindeki
+                değişimini analiz etmek ve gelecekteki trendleri tahmin etmek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> ARIMA modeli, geçmiş verilerdeki trend
+                ve dalgalanmaları analiz ederek gelecekteki harcamaları tahmin
+                etmiştir.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Harcamalar, yılın ilk yarısında artış
+                göstermiştir. Yılın son çeyreğinde ise harcamalarda belirgin bir
+                düşüş gözlemlenmiştir. Gelecek dönem için harcamaların stabil
+                bir seyir izlemesi beklenmektedir.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/zaman_serisi/prophet_forecast.png"
+              alt="Zaman Serisi Grafik 2"
+            />
+            <div class="analysis-report">
+              <h3>Prophet Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> Kredi kartı harcamalarının mevsimsel ve
+                trend bileşenlerini belirlemek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> Prophet modeli, mevsimsellik ve
+                trendleri analiz ederek harcama desenlerini tahmin etmiştir.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Yaz aylarında harcamalarda artış, kış
+                aylarında ise azalma gözlemlenmiştir. Özel günlerde (tatiller,
+                bayramlar) harcamalarda belirgin artışlar olmuştur. Gelecek yıl
+                için benzer mevsimsel desenlerin devam etmesi beklenmektedir.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/zaman_serisi/holt_winters_forecast.png"
+              alt="Zaman Serisi Grafik 3"
+            />
+            <div class="analysis-report">
+              <h3>Holt-Winters Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> Kredi kartı harcamalarının mevsimsel
+                desenlerini ve trendlerini analiz etmek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> Holt-Winters modeli, mevsimsel ve trend
+                bileşenlerini ayrı ayrı ele alarak analiz yapmıştır.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Harcamalar, yıl boyunca belirli
+                mevsimsel döngüler izlemiştir. Yılın ortasında harcamalarda
+                zirve noktaları gözlemlenmiştir. Gelecek dönem için mevsimsel
+                döngülerin devam etmesi beklenmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ürün Öneri Sistemi Proje Kartı -->
+      <div class="project-card">
+        <div class="graph-container">
+          <img
+            src="veri_analizi_python/ürün_öneri_sistemi/restaurant.webp"
+            alt="Ürün Öneri Sistemi"
+          />
+          <p class="project-aciklama">
+            Yemek ve restoran sektöründe kullanıcı tercihleri üzerine ürün öneri
+            sistemi analizi
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>Ürün Öneri Sistemi</h3>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+          </div>
+          <!-- Buton id ve class adını güncelledik -->
+          <a
+            href="#"
+            id="viewRecommendationSystemDetailsBtn"
+            class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: Ürün Öneri Sistemi -->
+      <div id="recommendationSystemModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeRecommendationSystemModal">&times;</span>
+          <h2>Ürün Öneri Sistemi</h2>
+          <div class="graphs">
+            <img
+              src="veri_analizi_python/ürün_öneri_sistemi/popular_meals_and_desserts.png"
+              alt="En Popüler Yemek ve Tatlılar Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>En Popüler Yemekler Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> Kullanıcıların en çok tercih ettiği
+                yemekleri belirlemek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> Sipariş verileri analiz edilerek en sık
+                sipariş edilen yemekler tespit edilmiştir.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Lasagna (%11.2) ve Tiramisu (%11.1)
+                en popüler yemekler arasında yer almaktadır.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/ürün_öneri_sistemi/popular_restaurants.png"
+              alt="En Popüler Restoranlar Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>En Popüler Restoranlar Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> Kullanıcıların en çok tercih ettiği
+                restoranları belirlemek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> Sipariş verileri analiz edilerek en sık
+                sipariş edilen restoranlar tespit edilmiştir.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Pizzeria Napoli (%21.8) ve Osteria
+                Firenze (%19.9) en popüler restoranlar arasında yer almaktadır.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/ürün_öneri_sistemi/user_ratings.png"
+              alt="En Yüksek Ortalama Puan Veren Kullanıcılar Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>En Yüksek Ortalama Puan Veren Kullanıcılar Analizi</h3>
+              <p>
+                <strong>Amaç:</strong> En yüksek ortalama puan veren
+                kullanıcıları belirlemek.
+              </p>
+              <p>
+                <strong>Yöntem:</strong> Kullanıcıların siparişlerine verdikleri
+                puanlar analiz edilerek en yüksek ortalama puan veren
+                kullanıcılar tespit edilmiştir.
+              </p>
+              <p>
+                <strong>Sonuçlar:</strong> Martina (%16.30) ve Elena (%16.25),
+                en yüksek ortalama puan veren kullanıcılar arasında yer
+                almaktadır. Bu kullanıcılar, siparişlerine ortalama 4.8 puan
+                vermiştir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- A/B Testi Proje Kartı -->
+      <div class="project-card">
+        <div class="graph-container">
+          <img src="veri_analizi_python/A_B_testi/saas.webp" alt="A/B Testi" />
+          <p class="project-aciklama">
+            SaaS ürünleri için ücretsiz deneme süresi ve onboarding türü üzerine
+            A/B testi analizi
+          </p>
+        </div>
+        <div class="project-info">
+          <h3>A/B Testi</h3>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scipy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+          </div>
+          <a href="#" id="viewABTestDetailsBtn" class="project-link"
+            >Detayları Gör</a
+          >
+        </div>
+      </div>
+
+      <!-- Modal Pencere: A/B Testi -->
+      <div id="abTestModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeABTestModal">&times;</span>
+          <h2>A/B Testi</h2>
+          <div class="graphs">
+            <img
+              src="veri_analizi_python/A_B_testi/conversion_rates_bar_chart.png"
+              alt="Dönüşüm Oranları Bar Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>Ücretsiz Deneme Süresi Dönüşüm Oranları</h3>
+              <p>
+                <strong>14 Günlük Deneme Süresi:</strong> %53.5 dönüşüm oranı.
+                Daha uzun süre deneme yapabildikleri için daha fazla kişi
+                abonelik satın aldı.
+              </p>
+              <p>
+                <strong>7 Günlük Deneme Süresi:</strong> %49.6 dönüşüm oranı.
+                Daha kısa süre deneme yapanlar, ürünü tam olarak
+                deneyimleyememiş olabilir.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/A_B_testi/combined_distribution.png"
+              alt="Dönüşüm Oranları Dağılım Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>Onboarding Türü Dönüşüm Oranları</h3>
+              <p>
+                <strong>Interaktif Rehber:</strong> %54.0 dönüşüm oranı.
+                Kullanıcılar, etkileşimli rehberle daha iyi öğrenip ürünü daha
+                etkili kullandı.
+              </p>
+              <p>
+                <strong>Video:</strong> %49.4 dönüşüm oranı. Video içerikleri,
+                rehber kadar etkili olmayabilir.
+              </p>
+            </div>
+
+            <img
+              src="veri_analizi_python/A_B_testi/weekly_conversion_rates.png"
+              alt="Haftalık Dönüşüm Oranları Çizgi Grafiği"
+            />
+            <div class="analysis-report">
+              <h3>Genel Değerlendirme</h3>
+              <p>
+                <strong>Sonuçlar:</strong> Her iki testte de büyük bir fark
+                bulunmadı. Bu, <strong>deneme süresi</strong> veya
+                <strong>rehber türünün</strong> kullanıcı davranışını çok fazla
+                etkilemediğini gösteriyor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- İstatistikler -->
+    <section class="statistics">
+      <div class="stats-container">
+        <div class="stat-item">
+          <h3>50+</h3>
+          <p>Tamamlanan Proje</p>
+        </div>
+        <div class="stat-item">
+          <h3>1M+</h3>
+          <p>Analiz Edilen Veri</p>
+        </div>
+        <div class="stat-item">
+          <h3>25+</h3>
+          <p>Mutlu Müşteri</p>
+        </div>
+        <div class="stat-item">
+          <h3>100%</h3>
+          <p>Müşteri Memnuniyeti</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teknolojiler -->
+    <section class="technologies">
+      <h2>KULLANILAN ARAÇLAR VE TEKNOLOJİLER</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-database"></i>
+          <span>SQL</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-chart-line"></i>
+          <span>Pandas</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-brain"></i>
+          <span>Scikit-learn</span>
+        </div>
+        <div class="tech-item">
+          <i class="fas fa-chart-bar"></i>
+          <span>Matplotlib</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section class="contact" id="iletisim-veri-analizi">
+      <h2>İLETİŞİM</h2>
+      <div class="contact-form">
+        <form id="contact-form">
+          <input type="text" placeholder="Adınız" required />
+          <input type="email" placeholder="E-posta" required />
+          <textarea placeholder="Mesajınız" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Begüm Narmanlı tarafından tasarlanmıştır. Tüm hakları
+        saklıdır.
+      </p>
+    </footer>
+    <button id="scrollToTopBtn" title="Sayfa Başına Dön">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>
