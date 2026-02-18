@@ -1,7 +1,7 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
+use PHPMailer\PHPMailer\SMTP;
 // PHPMailer'ı dahil et
 require 'vendor/autoload.php';
 
@@ -23,20 +23,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // SMTP sunucu ayarları
         $mail->isSMTP();
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER; // Ayrıntılı SMTP konuşmasını logla
+        $mail->Debugoutput = function ($str, $level) {
+            error_log("SMTP[$level] $str");
+        };
         $mail->Host = 'smtp.gmail.com';  // Gmail SMTP sunucusu
         $mail->SMTPAuth = true;
         $mail->Username = 'webdatacraft@gmail.com';  // Gmail adresinizi yazın
-        $mail->Password = 'ybjd mcui ouvh imco';  // Gmail şifrenizi yazın veya uygulama şifresi
+        $mail->Password = 'qgab fwzl juun pjue';  // Gmail şifrenizi yazın veya uygulama şifresi
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 9090;
+        $mail->Port = 587;
 
         // SMTP debug ayarları
         $mail->SMTPDebug = 2;  // Hata ayıklama seviyesini 2 olarak ayarlayın
 
         // Gönderen bilgileri
-        $mail->setFrom($email, $name);  // Kullanıcının e-posta adresi ve ismi
-        $mail->addAddress('webdatacraft@gmail.com');  // Alıcı e-posta adresi
-
+        $mail->setFrom('webdatacraft@gmail.com', 'Web Site İletişim');
+        $mail->addAddress('webdatacraft@gmail.com');
+        $mail->addReplyTo($email, $name);
         // E-posta içeriği
         $mail->isHTML(true);
         $mail->Subject = 'Yeni İletişim Formu Mesajı';
