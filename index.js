@@ -30,6 +30,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+if (contactForm) {
+  contactForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const data = new FormData(contactForm);
+    await fetch(contactForm.action, {
+      method: "POST",
+      body: data,
+      headers: { Accept: "application/json" }
+    });
+    alert("Mesajınız gönderildi!");
+    contactForm.reset();
+  });
+}
   const smokeContainer = document.querySelector(".smoke-container");
 
   if (smokeContainer) {
