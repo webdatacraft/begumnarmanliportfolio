@@ -30,14 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      alert("Mesajınız gönderildi!");
-      this.reset();
-    });
-  }
-
   const smokeContainer = document.querySelector(".smoke-container");
 
   if (smokeContainer) {
