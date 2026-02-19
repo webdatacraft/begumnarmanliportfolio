@@ -66,13 +66,13 @@ ul {
 
 @keyframes backgroundAnimation {
   0% {
-    background-color: #4da351; /* Başlangıç rengi */
+    background-color: #4da351;
   }
   50% {
-    background-color: #32c239; /* Orta rengi */
+    background-color: #32c239;
   }
   100% {
-    background-color: #037409; /* Bitiş rengi */
+    background-color: #037409;
   }
 }
 
@@ -88,7 +88,6 @@ ul {
   height: 60px;
 }
 
-/* Hamburger Menüsü Stilleri */
 .hamburger {
   position: fixed;
   right: 20px;
@@ -102,7 +101,6 @@ ul {
   z-index: 2001;
 }
 
-/* Menü Öğeleri */
 .nav ul {
   list-style: none;
   padding: 0;
@@ -117,20 +115,22 @@ ul {
   z-index: 10;
   max-height: none;
   overflow-y: visible;
-  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  transition:
+    opacity 1.5s ease-out,
+    transform 1.5s ease-out;
 }
 
-/* Menü açıldığında görünür */
 .nav.open ul {
   display: flex;
   background-color: #2e7d32;
   opacity: 1;
 }
 
-/* Menü kapanırken animasyon */
 .nav.closing ul {
   opacity: 0;
-  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  transition:
+    opacity 1.5s ease-out,
+    transform 1.5s ease-out;
 }
 
 .nav li {
@@ -138,14 +138,13 @@ ul {
   padding: 30px 10px;
 }
 
-/* Menüler için metin stili */
 .nav a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
   position: relative;
 }
-/* Menü öğeleri üzerinde hover efekti */
+
 .nav a:hover::after {
   content: "";
   position: absolute;
@@ -189,7 +188,7 @@ ul {
 #home .hero-content p {
   margin-left: 5px;
   margin-right: 0;
-  max-width: 220px; /* ihtiyaca göre ayarla */
+  max-width: 220px;
   text-align: left;
   font-size: 24px;
   line-height: 1.3;
@@ -203,7 +202,7 @@ ul {
   width: fit-content;
   display: block;
 }
-/* section two- text-container start */
+
 .intro {
   background-color: #e6f4ea;
   padding: 20px;
@@ -232,12 +231,13 @@ ul {
 .neden-list li {
   margin-bottom: 12px;
 }
+
 .neden-list li strong {
   font-weight: normal;
 }
 
 .neden h1 {
-  font-size: 26px; /* Varsayılanın üstüne net hiyerarşi */
+  font-size: 26px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -258,9 +258,11 @@ ul {
 .katkilar-list li {
   margin-bottom: 12px;
 }
+
 .katkilar-list li strong {
   font-weight: normal;
 }
+
 .katkilar h1 {
   font-size: 26px;
   margin-bottom: 10px;
@@ -275,9 +277,6 @@ ul {
   border-radius: 10px;
 }
 
-/* section two- text-container end */
-
-/* section three- featured-products start */
 .featured-products {
   padding: 50px 20px;
   background-color: #e6f2e6;
@@ -336,21 +335,16 @@ ul {
   text-decoration: none;
   border-radius: 8px;
   display: inline-block;
-  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition:
+    background 0.4s ease-in-out,
+    color 0.4s ease-in-out;
 }
 
 #btn-tum-urunler:hover {
-  background: linear-gradient(
-    45deg,
-    #66bb6a,
-    #ffffff
-  ); /* Aynı renklerin sırasını değiştiriyoruz */
+  background: linear-gradient(45deg, #66bb6a, #ffffff);
   color: #ffffff;
 }
 
-/* section three- featured-products end */
-
-/* testimonials start */
 .testimonials {
   text-align: center;
   line-height: 1.6;
@@ -393,31 +387,27 @@ ul {
   font-size: 18px;
   padding-top: 10px;
 }
-/* testimonials end */
 
-/* button start */
 .btn {
-  background: linear-gradient(
-    45deg,
-    #ffffff,
-    #66bb6a
-  ); /* Beyazdan yeşile doğru geçiş */
-  color: #2e7d32; /* Yazı rengi */
+  background: linear-gradient(45deg, #ffffff, #66bb6a);
+  color: #2e7d32;
   padding: 12px 25px;
   text-decoration: none;
   border: none;
   cursor: pointer;
-  display: inline-block; /* Buton gibi davranmasını sağlar */
+  display: inline-block;
   margin-top: 20px;
-  font-size: 18px; /* Yazı boyutu */
-  font-weight: bold; /* Yazıyı kalın yapar */
-  border-radius: 5px; /* Köşe yuvarlama */
-  transition: background 0.3s ease, color 0.3s ease; /* Renk ve arka plan geçişi */
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 button:hover {
   background: linear-gradient(45deg, #66bb6a, #ffffff);
-  color: #ffffff; /* Yazı rengini de hover durumunda değiştirebilirsiniz */
+  color: #ffffff;
 }
 
 @keyframes gradientAnimation {
@@ -433,9 +423,9 @@ button:hover {
 }
 
 .special-btn {
-  background: linear-gradient(45deg, #ffffff, #66bb6a); /* Başlangıç rengi */
-  animation: gradientAnimation 5s ease-in-out infinite; /* Yumuşak geçiş animasyonu */
-  color: #2e7d32; /* Yazı rengini sabit tutalım */
+  background: linear-gradient(45deg, #ffffff, #66bb6a);
+  animation: gradientAnimation 5s ease-in-out infinite;
+  color: #2e7d32;
 }
 
 .special-btn:hover {
@@ -449,7 +439,7 @@ button:hover {
   border-radius: 50%;
   font-size: 14px;
 }
-/* Sepet başlangıçta gizli olmalı */
+
 .cart-items-container {
   position: fixed;
   top: 60px;
@@ -465,7 +455,10 @@ button:hover {
   overflow-y: auto;
   z-index: 2000;
   transform: translateX(100%);
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -477,16 +470,21 @@ button:hover {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
 }
 
-/* Sepet kapanma animasyonu */
 .cart-items-container.closing {
   transform: translateX(100%);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
 }
 
 .cart-items-container .close-cart-btn {
@@ -513,7 +511,6 @@ button:hover {
   background: #388e3c;
 }
 
-/* toplam tutarın stilleri*/
 .total-price {
   font-size: 20px;
   font-weight: bold;
@@ -521,15 +518,15 @@ button:hover {
   margin-top: 40px;
   text-align: center;
 }
-/* Sepet ve Favori butonlarındaki çizgiyi kaldırma */
+
 #cart-btn,
 #favorite-btn {
-  text-decoration: none; /* Sepet ve Favori butonlarında çizgi yok */
+  text-decoration: none;
 }
 
 #cart-btn:hover::after,
 #favorite-btn:hover::after {
-  content: none; /* Sepet ve Favori butonlarında hover sırasında çizgi yok */
+  content: none;
 }
 
 .cart-item img {
@@ -542,8 +539,8 @@ button:hover {
 
 .cart-item p {
   flex-grow: 1;
-  font-size: 16px; /* Ürün adının yazı boyutu */
-  font-weight: bold; /* Ürün adını kalın yapmak */
+  font-size: 16px;
+  font-weight: bold;
   position: relative;
   display: block;
   color: #333;
@@ -560,62 +557,70 @@ button:hover {
   border-radius: 8px;
   border: 1px solid #ddd;
 }
+
 .cart-item-price {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 1px;
 }
+
 .cart-item-name {
   font-weight: bold;
   font-size: 16px;
   color: #222;
 }
+
 .cart-item-amount {
   font-size: 15px;
   color: #222;
   margin-bottom: 4px;
   display: inline-block;
 }
+
 .increase-btn {
-  background-color: #76e67a; /* Yeşil arka plan */
-  color: black; /* Beyaz yazı */
-  padding: 5px 10px; /* Butonun iç boşlukları */
-  border-radius: 5px; /* Kenarları yuvarlak yapmak */
-  border: none; /* Kenar çizgisi kaldırmak */
+  background-color: #76e67a;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
   position: relative;
   top: -35px;
   left: 70px;
 }
+
 .decrease-btn {
-  background-color: #76e67a; /* Kırmızı arka plan */
-  color: black; /* Beyaz yazı */
-  padding: 5px 10px; /* Butonun iç boşlukları */
-  border-radius: 5px; /* Kenarları yuvarlak yapmak */
-  border: none; /* Kenar çizgisi kaldırmak */
+  background-color: #76e67a;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
   position: relative;
   top: 35px;
   left: 45px;
 }
+
 .remove-btn {
-  background-color: #76e67a; /* Turuncu arka plan */
-  color: black; /* Beyaz yazı */
-  padding: 8px 16px; /* Butonun iç boşlukları */
-  border-radius: 5px; /* Kenarları yuvarlatmak */
-  border: none; /* Kenar çizgisi kaldırmak */
-  cursor: pointer; /* İmleci göster */
+  background-color: #76e67a;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
 .remove-btn:hover {
-  background-color: #ff6347; /* Hoverda renk değişimi */
+  background-color: #ff6347;
 }
+
 .heart-icon {
-  color: gray; /* Pasif durum */
+  color: gray;
 }
+
 .heart-icon.active {
-  color: red; /* Aktif durum */
+  color: red;
 }
-/* Favori Ürünler Kutusu */
+
 .favorite-container {
   width: 375px;
   right: 0;
@@ -631,7 +636,10 @@ button:hover {
   overflow-y: auto;
   z-index: 2000;
   transform: translateX(100%);
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -643,22 +651,28 @@ button:hover {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
 }
 
-/* Favoriler kapanma animasyonu */
 .favorite-container.closing {
   transform: translateX(100%);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 1s ease-in-out, visibility 1s ease-in-out;
+  transition:
+    transform 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 1s ease-in-out,
+    visibility 1s ease-in-out;
 }
 
 .favorite-container h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
 .favorite-item {
   display: flex;
   align-items: center;
@@ -680,6 +694,7 @@ button:hover {
   margin-left: 5px;
   font-size: 14px;
 }
+
 .favorite-item img {
   width: 50px;
   height: 50px;
@@ -712,6 +727,7 @@ button:hover {
   z-index: 2100;
   transition: background 0.2s;
 }
+
 .favorite-container .close-fav-btn:hover {
   background: #388e3c;
 }
@@ -729,26 +745,24 @@ button:hover {
   background: #d32f2f;
 }
 
-/* Favorilere Ekle Butonu (Favori Kutusundaki) */
 .favorite-btn {
   border: none;
   display: inline-flex;
   align-items: center;
-  padding: 5px; /* Butonun içine boşluk ekler */
-  cursor: pointer; /* Tıklanabilir hale getirir */
-  border-radius: 5px; /* Butonun köşelerini yuvarlat */
-  transition: all 0.3s ease; /* Geçiş efekti ekler */
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
   margin-top: -8px;
   font-size: 20px;
   color: white;
 }
 
 .favorite-btn:hover {
-  background-color: #81c784; /* Arka plan rengini değiştirir */
-  transform: scale(1.1); /*Butonu büyütür */
+  background-color: #81c784;
+  transform: scale(1.1);
 }
 
-/* Ürün Listesi */
 .products {
   padding: 50px 0;
   text-align: center;
@@ -802,14 +816,16 @@ button:hover {
   z-index: 1;
   background-color: #f9f9f9;
 }
+
 .product-item h3 {
   font-size: 22px;
 }
+
 .product-item p {
   font-size: 18px;
   font-weight: bold;
 }
-/* Butonlar */
+
 .button-container {
   display: flex;
   justify-content: space-between;
@@ -818,7 +834,6 @@ button:hover {
   margin-top: auto;
 }
 
-/* Ürün Kartındaki Favorilere Ekle Butonu */
 .product-item .favorite-btn {
   flex: 1;
   padding: 15px 20px;
@@ -829,7 +844,9 @@ button:hover {
   background-color: #2e7d32;
   color: white;
   border: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .product-item .favorite-btn:hover {
@@ -837,7 +854,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Sepete Ekle Butonu */
 .product-item .btn {
   flex: 1;
   margin-bottom: 10px;
@@ -849,7 +865,9 @@ button:hover {
   background-color: #2e7d32;
   color: white;
   border: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .product-item .btn:hover {
@@ -861,13 +879,11 @@ button:hover {
   transform: translateY(-5px);
 }
 
-/* Favorilere ekle butonu içeriği */
 .favorite-button {
   display: flex;
   align-items: center;
   padding: 10px 15px;
   font-size: 16px;
-
   color: transparent;
   border: none;
   border-radius: 5px;
@@ -885,7 +901,6 @@ button:hover {
   background-color: #4caf50;
 }
 
-/* Sepet ve Favori ikonları */
 .cart-container a i {
   color: white;
   margin-left: 20px;
@@ -895,7 +910,7 @@ button:hover {
 .favorite-btn i {
   margin-right: 8px;
   color: white;
-  transition: color 0.3s ease; /* Renk geçişi */
+  transition: color 0.3s ease;
   font-size: 22px;
   cursor: pointer;
   color: green;
@@ -909,54 +924,49 @@ button:hover {
 #heart-icon:hover {
   color: #f50057;
 }
-/* Favori Butonu (Menüde) */
+
 .menu-favorite-btn {
-  position: relative; /* Konumlandırma için */
-  display: inline-flex; /* İkon ve sayı yatayda hizalanacak */
-  align-items: center; /* İçeriği ortalamak için */
-  justify-content: center; /* İçeriği ortalamak için */
-  padding: 10px 15px; /* Dikey ve yatay boşlukları ayarladık */
-  border: 2px; /* Çerçeve rengi */
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 2px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Hover efekti için geçiş */
-  border-radius: 5px; /* Düz köşe yuvarlama */
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  border-radius: 5px;
 }
 
-/* Kalp İkonu */
 #heart-icon {
-  font-size: 26px; /* İkon boyutu */
-  color: red; /* Başlangıçta kalp ikonu rengi */
-  transition: color 0.3s ease; /* Renk değişimi için geçiş */
+  font-size: 26px;
+  color: red;
+  transition: color 0.3s ease;
   cursor: pointer;
   margin-inline: auto;
 }
 
-/* Favori Sayısı (Menüde) */
 #favorite-count {
   position: absolute;
-  top: 20px; /* Sayıyı yukarı kaydır */
-  right: -14px; /* Sayıyı sağa kaydır */
-  background-color: red; /* Sayı için arka plan rengi */
-  color: white; /* Yazı rengi */
-  font-size: 14px; /* Sayının yazı boyutu */
-  font-weight: bold; /* Yazı kalınlığı */
-  padding: 3px 7px; /* Yuvarlak için padding */
-  border-radius: 50%; /* Tam yuvarlak şekil */
-  min-width: 18px; /* Minimum genişlik */
-  height: 18px; /* Yükseklik ile aynı olmalı */
-  text-align: center; /* Sayıyı ortalamak için */
-  line-height: 18px; /* Sayıyı dikey olarak ortalamak için */
+  top: 20px;
+  right: -14px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  border-radius: 50%;
+  min-width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
 }
 
-/* Favori Butonu Focus Durumu (Klavye ile erişim) */
 .menu-favorite-btn:focus {
-  outline: none; /* Focus sınırlarını kaldır */
-  box-shadow: 0 0 0 2px rgba(0, 132, 143, 0.5); /* Focus sırasında hafif bir ışık efekti */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 132, 143, 0.5);
 }
-
-/* product end */
-
-/* about start */
 
 .about {
   background-color: #e6f2e6;
@@ -1011,9 +1021,6 @@ button:hover {
   font-weight: bold;
   color: #2e7d32;
 }
-/* about end */
-
-/* contact start*/
 
 .contact-form {
   max-width: 600px;
@@ -1021,33 +1028,33 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px; /* İçeriğe boşluk ekler */
-  background-color: #fff; /* Beyaz arka plan */
-  border-radius: 10px; /* Kenarları yuvarlatır */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
   padding: 10px;
-  border: 1px solid #ccc; /* Hafif sınır çizgisi */
-  border-radius: 5px; /* Kenarları yuvarlatır */
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #66bb6a; /* Odaklanıldığında yeşil sınır */
-  outline: none; /* Varsayılan kenarlık dışını kaldırır */
+  border-color: #66bb6a;
+  outline: none;
 }
 
 .contact h2 {
-  font-size: 36px; /* Yazı boyutunu büyütür */
-  font-weight: bold; /* Yazıyı kalın yapar */
-  text-align: center; /* Ortalar */
-  margin-bottom: 20px; /* Altına boşluk ekler */
-  color: #2e7d32; /* Yeşil renk verir */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
   margin-top: 100px;
 }
 
@@ -1058,73 +1065,67 @@ button:hover {
 
 .contact-info h3 {
   font-size: 1.5rem;
-  color: #2e7d32; /* Yeşil renk */
+  color: #2e7d32;
   margin-bottom: 10px;
 }
 
 .contact-info p {
   font-size: 1.1rem;
-  color: #333; /* Siyah metin rengi */
+  color: #333;
 }
 
 .contact-info a {
-  color: #2e7d32; /* Yeşil renkli linkler */
+  color: #2e7d32;
   text-decoration: none;
 }
 
 .contact-info a:hover {
-  text-decoration: underline; /* Link üzerine gelindiğinde alt çizgi ekler */
+  text-decoration: underline;
 }
-/* contact end */
 
-/* footer start */
 .footer {
-  background: linear-gradient(
-    to right,
-    #66bb6a,
-    #2e7d32,
-    #66bb6a
-  ); /* Koyu yeşilden açık yeşile doğru geçiş */
-  color: #fff; /* Beyaz metin rengi */
-  text-align: center; /* Metni ortalar */
-  padding: 5px 0; /* Üst ve alt boşluklar */
-  font-size: 14px; /* Yazı boyutunu küçültür */
-  font-weight: normal; /* Yazıyı normal kalınlıkta yapar */
+  background: linear-gradient(to right, #66bb6a, #2e7d32, #66bb6a);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .footer p {
-  margin: 5px 0; /* Her paragraf arasında boşluk bırakır */
+  margin: 5px 0;
 }
 
 .footer a {
-  color: #fff; /* Bağlantı rengini beyaz yapar */
-  text-decoration: none; /* Alt çizgiyi kaldırır */
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer a:hover {
-  text-decoration: underline; /* Hover durumunda altını çizer */
+  text-decoration: underline;
 }
+
 .footer-item {
   display: block;
   line-height: 1.6;
 }
 
-/* footer end */
-
-/* Scrollbar stilini tüm sayfa için uygula */
 ::-webkit-scrollbar {
   width: 20px;
   background: #e6f2e6;
   border-radius: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(135deg, #66bb6a, #2e7d32);
   border-radius: 8px;
   border: 3px solid #e6f2e6;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #388e3c, #81c784);
 }
+
 #scrollToTopBtn {
   position: fixed;
   bottom: 20px;
@@ -1153,7 +1154,9 @@ button:hover {
   transform: translate(-50%, -50%);
   z-index: 2;
   pointer-events: none;
-  transition: color 0.2s, filter 0.2s;
+  transition:
+    color 0.2s,
+    filter 0.2s;
 }
 
 .scroll-progress-bg {
@@ -1210,30 +1213,22 @@ button:hover {
   pointer-events: none;
 }
 
-/* Firefox için */
 html {
   scrollbar-width: thin;
   scrollbar-color: #2e7d32 #e6f2e6;
 }
 
-/* Scrollbar içine yazı eklenemez. Ancak, istersen scroll bar'ın yanına sabit bir yazı ekleyebilirsin. */
-
-/* urun-detaylari start */
 .bambu-detay-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* margin: 40px auto; */
   max-width: 500px;
-  /* background: #fff; */
   padding: 40px 30px;
   border-radius: 16px;
-  /* box-shadow: 0 4px 16px rgba(46, 125, 50, 0.08); */
 }
 
-/* bambu start */
 .bambu-detay-img {
   width: 360px;
   height: 360px;
@@ -1242,6 +1237,7 @@ html {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(46, 125, 50, 0.1);
 }
+
 .bambu-detay-stars {
   display: flex;
   flex-direction: column;
@@ -1264,6 +1260,7 @@ html {
   font-weight: 500;
   text-align: center;
 }
+
 .bambu-detay-aciklama ul {
   list-style: none;
   padding-left: 0;
@@ -1272,23 +1269,23 @@ html {
   overflow-x: auto;
   padding-bottom: 4px;
 }
+
 .bambu-detay-aciklama li {
   margin-bottom: 20px;
   white-space: normal;
   text-align: center;
 }
+
 h3 {
   font-size: 28px;
 }
 
-/* urun-detaylari end */
-/* --- KULLANICININ İSTEDİĞİ KART TASARIMI BAŞLANGIÇ --- */
 .urun-detay-body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #eaf4ec; /* Açık yeşil */
+  background: #eaf4ec;
 }
 
 .card {
@@ -1341,7 +1338,7 @@ h3 {
   height: 150%;
   background: #fff;
   transform: rotate(36.5deg);
-  box-shadow: 0 0 0 20px #4e944f; /* Doğal yeşil */
+  box-shadow: 0 0 0 20px #4e944f;
   transition: 0.5s;
   transition-delay: 1s;
   opacity: 0;
@@ -1360,11 +1357,11 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  box-sizing: border-box; /* EKLENDİ */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* tam ortala */
-  align-items: center; /* tam ortala */
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   border-radius: 20px;
   overflow: hidden;
@@ -1383,8 +1380,8 @@ h3 {
   margin: 10px 0;
   font-size: 1.2rem;
   color: #333;
-  width: 100%; /* Genişliği belirle */
-  text-align: center; /* Yazıyı ortala */
+  width: 100%;
+  text-align: center;
 }
 
 .card .details h2 {
@@ -1407,7 +1404,6 @@ h3 {
 
 .card .details img {
   width: 150px;
-  /* margin-bottom: 10px; */
   border-radius: 10px;
   display: block;
   margin-left: auto;
@@ -1420,14 +1416,11 @@ h3 {
 
 .card .hover-content {
   display: none;
-  /* ...diğer stiller... */
 }
 
 .card:hover .hover-content {
   display: flex;
 }
-
-/* --- KULLANICININ İSTEDİĞİ KART TASARIMI BİTİŞ --- */
 
 .bambu-detay-container .favorite-btn {
   flex: 1;
@@ -1444,15 +1437,18 @@ h3 {
   margin-left: 0;
   margin-right: 0;
   display: inline-block;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
+
 .bambu-detay-container .favorite-btn:hover {
   background: linear-gradient(45deg, #66bb6a, #ffffff);
   color: #ffffff;
 }
+
 .bambu-detay-container .btn,
 .bambu-detay-container .favorite-btn {
-  /* width: 180px; */
   min-width: 0;
   max-width: 100%;
   display: flex;
@@ -1463,20 +1459,24 @@ h3 {
   font-weight: bold;
   text-align: left;
 }
+
 .bambu-detay-container .btn i,
 .bambu-detay-container .favorite-btn i {
   margin: 0 10px 0 0;
   font-size: 20px;
   color: inherit;
 }
+
 .bambu-detay-container .btn {
   color: #2e7d32;
   background: linear-gradient(45deg, #ffffff, #66bb6a);
 }
+
 .bambu-detay-container .favorite-btn {
   color: #2e7d32;
   background: linear-gradient(45deg, #ffffff, #66bb6a);
 }
+
 .bambu-detay-container .btn:hover,
 .bambu-detay-container .favorite-btn:hover {
   background: linear-gradient(45deg, #66bb6a, #ffffff);
@@ -1497,13 +1497,14 @@ h3 {
 .back-btn:hover {
   background-color: #66bb6a;
 }
+
 .yorum-stars {
-  color: #ffb300; /* Sarı renk */
+  color: #ffb300;
   font-size: 1.2em;
   margin-left: 6px;
   vertical-align: middle;
 }
-/* search ikonu */
+
 .product-link {
   display: block;
   text-decoration: none;
@@ -1537,6 +1538,7 @@ h3 {
   opacity: 1;
   transform: scale(1);
 }
+
 .urun-detay-pointer {
   position: absolute;
   bottom: 16px;
@@ -1554,10 +1556,12 @@ h3 {
 .urun-detay-pointer:hover {
   transform: scale(1.2);
 }
+
 .cover:hover .urun-detay-pointer {
   opacity: 0;
   pointer-events: none;
 }
+
 .cover img:nth-child(2) {
   display: none;
 }
@@ -1570,11 +1574,11 @@ h3 {
   display: block;
 }
 
-/* Tablet ve üzeri hamburger gizli, nav görünsün */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hamburger {
     display: none;
   }
+
   .nav ul {
     display: flex;
     flex-direction: row;
@@ -1591,6 +1595,7 @@ h3 {
     display: flex;
     background-color: transparent;
   }
+
   .nav {
     height: 60px;
     align-items: center;
@@ -1600,6 +1605,7 @@ h3 {
     height: auto;
     line-height: 60px;
   }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -1734,7 +1740,7 @@ h3 {
     margin-top: 20px;
   }
 }
-/* desktop stilleri */
+
 @media (min-width: 1025px) {
   .hamburger {
     display: none;
@@ -1743,7 +1749,9 @@ h3 {
     font-size: 18px;
     display: inline-block;
     position: relative;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
     text-decoration: none;
   }
 
@@ -1752,7 +1760,9 @@ h3 {
   }
   #favorite-btn {
     display: inline-block;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
   }
 
   #favorite-btn:hover {
@@ -1964,8 +1974,8 @@ h3 {
     height: 450px;
   }
   .card .cover img {
-    height: 50%; 
-    width: auto; 
+    height: 50%;
+    width: auto;
   }
   .card .details img {
     width: 200px;
